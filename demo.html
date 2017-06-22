@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seebibyte Project</title>
+    <meta name="description" content="Seebibyte: Visual Search for the Era of Big Data" />
+	<meta name="robots" content="index, follow" />
+	<meta itemprop="name" content="Seebibyte Project"/>
+    <meta itemprop="description" content="Seebibyte: Visual Search for the Era of Big Data "/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<link rel="stylesheet" href="stylesheets/linkcard.css">
+	<link rel="stylesheet" href="stylesheets/aboutcard.css">
+	<link rel="stylesheet" href="stylesheets/democard.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner" >
+    <a class="logo col-1" ></a>
+    <nav class="header-nav col-8" >
+      <label id="hamburger" class="hamburger icon icon-hamburger" ></label>
+            <ul class="nav-list nav-left" >
+        <li class="nav-item honav" ><a href="index.html">Home</a></li>
+        <li class="nav-item denav active-nav" ><a href="demo.html">Demos</a></li>
+        <li class="nav-item sonav" ><a href="software.html">Software</a></li>
+        <li class="nav-item punav" ><a href="publication.html">Publications</a></li>
+        <li class="nav-item has-dropdown penav" ><a >People</a><span class="icon icon-carat-down" ></span>
+		<nav class="header-dropdown" >
+		<ul class="dropdown-nav-items">
+		<li class="dropdown-nav-item"><a href="investigators.html" class="ipenav">Investigators</a></li>
+		<li class="dropdown-nav-item"><a href="researchers.html" class="rpenav">Researchers</a></li>
+		<li class="dropdown-nav-item"><a href="partners.html" class="ppenav">Partners</a></li>
+		</ul>
+		</nav>
+		</li>
+		
+      </ul> 
+    </nav>
+  </div>
+</header>
+
+<div class="content content-home" data-src="markdown/demo.md" data-hasmd="1" >
+	<section class="case-studies demosec js-demo">
+    <div class="case-studies-inner">
+        <h4>Software Demos</h4>
+        <h5>As the project progresses we will add full details on this website about our new software releases.
+	In advance, here is a taster of previous software demonstrations.
+	</h5>
+        <div class="tabs tablist">
+            <div class="tab">Demo 1: BBC</div>
+            <div class="tab">Demo 2: Paintings</div>
+            <div class="tab">Demo 3: Smart Specs</div>
+        </div>
+        <div class="demodiv markdowner">
+<!--          
+		  <ul>
+                <li>
+                    <h1>Demo 1: BBC</h1>
+                    <h2>VISUAL SEARCH OF BBC NEWS</h2>
+                    <img src="images/demo1.png" alt="">
+                    <p>This is a technical demo of the large-scale on-the-fly web search technologies which are under development in the Oxford University Visual Geometry Group, using data provided by BBC R&amp;D comprising over five years of prime-time news broadcasts from six channels. The demo consists of three different components, which can be used to query the dataset on-the-fly for three different query types: object search, image search and people search.</p>
+                    <p><a href="http://varro3.robots.ox.ac.uk:9090/">Demo</a>
+                        <a href="http://www.robots.ox.ac.uk/~vgg/research/on-the-fly/">Details</a></p>
+                </li>
+                <li>
+                    <h1>Demo 2: Paintings</h1>
+                    <h2>VISUAL SEARCH OF PAINTINGS</h2>
+                    <img src="images/demo2.png" alt="">
+                    <p>The objective of this research is to find objects in paintings by learning classifiers from photographs on the internet. We provide a live demo that allows a user to search for an object of their choosing (such as "baby", "bird", or "dog, for example) in a dataset of over 200,000 paintings, in a matter of seconds.</p>
+                    <p><a href="http://varro2.robots.ox.ac.uk:8085/">Demo</a>
+                        <a href="http://www.robots.ox.ac.uk/~vgg/research/art_search/">Details</a></p>
+                </li>
+                <li>
+                    <h1>Demo 3: Smart Specs</h1>
+                    <h2>VISUAL SEARCH OF PAINTINGS</h2>
+                    <img src="images/demo3.png" alt="">
+                    <p>Our work allows computers to recognize objects in images, what is distinctive about our work is that we also recover the 2D outline of the object. Currently we have trained this model to recognize 20 classes. The demo below allows you to test our algorithm on your own images – have a try and see if you can fool it, if you get some good examples you can send them to us. Why are we doing this? This work is part of a project to build augmented reality glasses for the partially sighted.</p>
+                    <p><a href="http://www.robots.ox.ac.uk/~szheng/crfasrnndemo">Demo</a>
+                        <a href="http://www.va-st.com/smart-specs/">Smart specs</a></p>
+                </li>
+            </ul>
+			-->
+        </div>
+    </div>
+
+</section>
+	</div>
+<footer>
+
+</footer>
+	<script src="scripts/remarkable.min.js"></script>
+	<script src="scripts/index.js" ></script>
+	<script src="scripts/democard.js" ></script>
+	<script src="scripts/aboutcard.js" ></script>
+	<script src="scripts/linkcard.js" ></script>
+	
+	<script>
+	function init() {
+	var dcel = document.getElementsByClassName("demodiv")[0];
+	var dclis = dcel.getElementsByTagName("li");
+	
+	for(var i=0;i<dclis.length;i++) {
+		dclis[i].classList.add("demoCard");
+		var dcobj = new demoCard(dclis[i]);
+		dcobj.gridy();
+	}
+	
+	function tabList(el,div) {
+	this.el = el;
+	this.div = div;
+	this.li = this.div.getElementsByTagName("li");
+	
+	this.tabs;
+}
+
+tabList.prototype.init = function() {
+	this.el.innerHTML = "";
+	for(var i=0;i<this.li.length;i++) {
+		this.el.innerHTML+='<div class="tab" data-index="'+i+'" >'+this.li[i].getElementsByTagName("h1")[0].innerHTML+'</div>';
+	}
+	this.tabs = this.el.getElementsByClassName("tab");
+	var that = this;
+	for(var i=0;i<this.li.length;i++) {
+		
+		this.el.onclick = function(e) {
+			
+			if(e.target.classList.contains("tab")) {
+			that.hideAll();
+			var idx = e.target.getAttribute("data-index");
+			that.li[idx].style.display = "block";
+			e.target.classList.add("selected");
+			}
+		};
+	}
+	this.hideAll();
+	this.li[0].style.display = "block";
+	this.tabs[0].classList.add("selected");
+};
+
+tabList.prototype.hideAll = function() {
+	for(var i=0;i<this.li.length;i++) {
+		this.li[i].style.display = "none";
+	if(this.tabs[i].classList.contains("selected")) {
+		this.tabs[i].classList.remove("selected");
+	}
+	}
+	
+};
+
+var tl =new tabList(document.getElementsByClassName("tablist")[0],document.getElementsByClassName("demodiv")[0]);
+console.log(tl);
+tl.init();
+}
+
+	</script>
+</body>
+</html>

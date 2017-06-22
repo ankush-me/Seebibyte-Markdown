@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seebibyte Project</title>
+    <meta name="description" content="Seebibyte: Visual Search for the Era of Big Data" />
+	<meta name="robots" content="index, follow" />
+	<meta itemprop="name" content="Seebibyte Project"/>
+    <meta itemprop="description" content="Seebibyte: Visual Search for the Era of Big Data "/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<link rel="stylesheet" href="stylesheets/linkcard.css">
+	<link rel="stylesheet" href="stylesheets/aboutcard.css">
+	<link rel="stylesheet" href="stylesheets/democard.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner" >
+    <a class="logo col-1" ></a>
+ <nav class="header-nav col-8" >
+      <label id="hamburger" class="hamburger icon icon-hamburger" ></label>
+            <ul class="nav-list nav-left" >
+        <li class="nav-item honav" ><a href="index.html">Home</a></li>
+        <li class="nav-item denav" ><a href="demo.html">Demos</a></li>
+        <li class="nav-item sonav" ><a href="software.html">Software</a></li>
+        <li class="nav-item punav" ><a href="publication.html">Publications</a></li>
+        <li class="nav-item has-dropdown penav active-nav" ><a >People</a><span class="icon icon-carat-down" ></span>
+		<nav class="header-dropdown" >
+		<ul class="dropdown-nav-items">
+		<li class="dropdown-nav-item"><a href="investigators.html" class="ipenav">Investigators</a></li>
+		<li class="dropdown-nav-item"><a href="researchers.html" class="rpenav">Researchers</a></li>
+		<li class="dropdown-nav-item"><a href="partners.html" class="ppenav">Partners</a></li>
+		</ul>
+		</nav>
+		</li>
+		
+      </ul> 
+    </nav>
+  </div>
+</header>
+
+<div class="content content-home" data-src="markdown/partner.md" data-hasmd="1" >
+
+	<section class="partner-section markdowner">
+	<!--
+	<h4>Partners</h4>
+	<ul>
+<li><h1>ACADEMIC SECTOR</h1>
+<img src="logos/sanger.png" />
+<img src="logos/mpi.png" />
+<p>Sanger Institute – Application area: Drug Discovery (Data type: Microscopy)</p>
+<p>Max Plank Institute - Biological Science (Microscopy)</p>
+</li>
+<li><h1>PUBLIC SERVICE</h1>
+<img src="logos/nhs.png" />
+<img src="logos/bbc.png" />
+<p>OU Hospitals NHS Trust - Healthcare (Ultrasound images)</p>
+<p>BBC - Media (Video)</p></li>
+<li><h1>INDUSTRY</h1>
+<img src="logos/mirada.png" />
+<img src="logos/iu.png" />
+<img src="logos/ge.png" />
+<img src="logos/microsoft.png" />
+<img src="logos/mirriad.png" />
+<img src="logos/yotta.png" />
+<img src="logos/bp.png" />
+<img src="logos/qualcomm.png" />
+<p>Mirada Medical - Healthcare Radiological (Images)</p>
+<p>Intelligent Ultrasound - Healthcare (Ultrasound)</p>
+<p>GE Global Research - Surveillance (Video)</p>
+<p>Microsoft - Imaging (Video)</p>
+<p>MirriAd - Advertizing placement (Video)</p>
+<p>Yotta Road Assets -Transport (Video)</p>
+<p>BP - Process monitoring (Video)</p>
+<p>Qualcomm - Mobile devices (Development kit)</p></li>
+
+</ul>
+	
+	-->
+	</section>
+</div>
+<footer>
+
+</footer>
+	<script src="scripts/remarkable.min.js"></script>
+	<script src="scripts/index.js" ></script>
+	<script src="scripts/democard.js" ></script>
+	<script src="scripts/aboutcard.js" ></script>
+	<script src="scripts/linkcard.js" ></script>
+	
+	<script>
+	function init() {
+	var partsect = document.getElementsByClassName("partner-section");
+	var partlis = document.getElementsByTagName("li");
+	for(var i=0;i<partlis.length;i++) {
+	var partimg = partlis[i].getElementsByTagName("img");
+	var partpara = partlis[i].getElementsByTagName("p");
+	for(var j=0;j<partimg.length;j++) {
+	partimg[j].title = partpara[j].innerText;
+	}
+	}
+	
+	}
+	
+	</script>
+</body>
+</html>

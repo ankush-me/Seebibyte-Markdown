@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.demoCard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom:60px;
+}
+.demoCard div[data-dc="1"] {
+  width: 100%;
+  text-align: center;
+  padding: 14px;
+  box-sizing: border-box;
+}
+.demoCard div[data-dc="3"] h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 100;
+  font-family: 'Roboto',sans-serif;
+}
+.demoCard div[data-dc="2"] {
+  width: 500px;
+  
+  height: 480px;
+  display: inline-block;
+  padding: 60px 20px;
+  vertical-align: top;
+  text-align: center;
+  margin:0 auto;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(31,42,51,.08);
+ 
+  
+}
+@media (max-width: 1200px) {
+  .demoCard div[data-dc="2"] {
+    width:100%;
+	min-height:360px;
+  }
+  
+}
+
+@media (max-width: 360px) {
+	.demoCard div[data-dc="2"] a {
+		display:block;
+		margin:0 auto;
+		text-align:center;
+	}
+}
+.demoCard div[data-dc="2"] img {
+  width: 100%;
+  padding-bottom:25px;
+  margin: 0 auto;
+  max-height:210px;
+  max-width:400px;
+  display:block;
+}
+
+
+.demoCard div[data-dc="3"] {
+  display: inline-block;
+  padding: 90px 84px;
+  text-align: center;
+  margin: 0 auto;
+  
+  width:640px;
+  margin-left:24px;
+  box-shadow: 0 4px 8px 0 rgba(31,42,51,.08);
+  background-color:#fff;
+}
+@media (max-width: 1200px) {
+  .demoCard div[data-dc="3"] {
+    width:100%;
+	margin:0;
+	display:block;
+	padding:24px;
+  }
+}
+.demoCard div[data-dc="3"] h2 {
+  font-size: 24px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  line-height: 45px;
+  color:#000;
+}
+.demoCard div[data-dc="3"] p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+}
+.demoCard div[data-dc="4"] {
+  max-width: 100%;
+  text-align: center;
+}
+.demoCard div[data-dc="2"] a {
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  transition: all 300ms linear;
+  padding: 4px 20px;
+  color: #00B2FF;
+  margin: 20px;
+  border: 2px solid #00B2FF;
+  border-radius: 20px;
+  font-weight:400;
+  width:140px;
+  
+ 
+}
+.demoCard div[data-dc="2"] a:hover {
+  background-color: #00B2FF;
+  color: #fff;
+}
+
+
+
