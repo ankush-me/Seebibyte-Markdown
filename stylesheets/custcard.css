@@ -1,0 +1,45 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+}
+
+.custCard img {
+	height:60px;
+	max-width:100%;
+	margin:0 auto;
+}
+.custCard {
+	max-width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.custCard ul{
+	list-style:none;
+	padding:0;
+	display:table;
+	margin:0 auto;
+	transition: all 1s ease-out;
+}
+
+.custCard li {
+	display:table-cell;
+	text-align:center;
+	padding:20px 0;
+	min-width:320px;
+}
+
+
+
+@media (max-width:960px) {
+	.custCard {
+		width:320px;
+	}
+	.custCard li {
+		width:100%;
+	}
+}
+
+
