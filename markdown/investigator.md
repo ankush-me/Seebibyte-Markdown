@@ -1,6 +1,6 @@
 ####	Project Investigators
 
-*   # PROF. ANDREW ZISSERMAN
+*   # Prof. Andrew Zisserman
 
     ![](images/inv1.jpg)
 
@@ -21,7 +21,7 @@
 	for camera-tracking software. In 2013 he was awarded the Longuet-Higgins
 	prize and the IEEE PAMI Distinguished Researcher award.
 
-*   # PROF. ALISON NOBLE
+*   # Prof. Alison Noble
 
     ![](images/inv2.jpg)
 
@@ -41,7 +41,7 @@
 	around 300 peer-reviewed papers. She is also a co-founder and the Chief Technology
 	Officer of Intelligent Ultrasound Ltd.
 
-*   # PROF. ANDREA VEDALDI
+*   # Prof. Andrea Vedaldi
 
     ![](images/inv3.jpg)
 
@@ -59,7 +59,7 @@
 	and he is an editor of TPAMI. He organised five tutorials at ECCV and CVPR and three
 	international computer vision summer schools (JHU NAACL, PAVIS).
 
-*   # PROF. PHIL TORR
+*   # Prof. Phil Torr
 
     ![](images/inv4.jpg)
 
@@ -78,7 +78,7 @@
 	the top conference in computer vision ICCV, and in the past was program chair
 	for ECCV and BMVC.
 
-*   # PROF. JENS RITTSCHER
+*   # Prof. Jens Rittscher
 
     ![](images/inv5.jpg)
 

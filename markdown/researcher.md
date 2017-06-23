@@ -1,6 +1,6 @@
 ####	Project Researchers
 
-*   # DR CARLOS ARTETA
+*   # Dr Carlos Arteta
 
     ![](images/res1.jpg)
 
@@ -11,7 +11,7 @@
 	His previous work mainly focused on microscopy image analysis, and he currently
 	works in diverse areas such as zoology and material sciences.
 
-*   # DR VASILEIOS BELAGIANNIS
+*   # Dr Vasileios Belagiannis
 
     ![](images/res2.jpg)
 
@@ -27,7 +27,7 @@
 	will focus on research on deep learning for computer vision problems, where the outcome can be
 	transferred into different disciplines and applied in non-vision tasks.
 
-*   # DR ABHISHEK DUTTA
+*   # Dr Abhishek Dutta
 
     ![](images/res3.jpg)
 
@@ -39,7 +39,7 @@
 	in Computer Engineering from the Tribhuvan University (Nepal) in 2009 and MSc
 	in Computer Science (by research) from the University of York (UK) in 2010.
 
-*   # DR ERNESTO COTO
+*   # Dr Ernesto Coto
 
     ![](images/res4.jpg)
 
@@ -57,7 +57,7 @@
 	Scientific Visualization and Image Processing; and more recently Computer Vision
 	and Machine Learning.
 
-*   # DR WEILIN HUANG
+*   # Dr Weilin Huang
 
     ![](images/res5.jpg)
 
