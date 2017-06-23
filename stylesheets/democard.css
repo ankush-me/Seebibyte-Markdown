@@ -16,6 +16,7 @@
   text-align: center;
   padding: 14px;
   box-sizing: border-box;
+  display:table-row;
 }
 .demoCard div[data-dc="3"] h1 {
   margin: 0;
@@ -26,26 +27,27 @@
 .demoCard div[data-dc="2"] {
   width: 500px;
   
-  height: 480px;
-  display: inline-block;
+  height: 100%;
+  display: table-cell;
   padding: 60px 20px;
   vertical-align: top;
   text-align: center;
   margin:0 auto;
   background-color:#fff;
   box-shadow: 0 4px 8px 0 rgba(31,42,51,.08);
- 
+  border-right:10px solid #F5F7FA;
   
 }
-@media (max-width: 1200px) {
+@media (max-width: 786px) {
   .demoCard div[data-dc="2"] {
-    width:100%;
-	min-height:360px;
+    display:block;
+	width:100%;
+	border:0
   }
   
 }
 
-@media (max-width: 360px) {
+@media (max-width: 460px) {
 	.demoCard div[data-dc="2"] a {
 		display:block;
 		margin:0 auto;
@@ -59,21 +61,22 @@
   max-height:210px;
   max-width:400px;
   display:block;
+ 
 }
 
 
 .demoCard div[data-dc="3"] {
-  display: inline-block;
+  display: table-cell;
   padding: 90px 84px;
   text-align: center;
   margin: 0 auto;
-  
+  height:100%;
   width:640px;
   margin-left:24px;
   box-shadow: 0 4px 8px 0 rgba(31,42,51,.08);
   background-color:#fff;
 }
-@media (max-width: 1200px) {
+@media (max-width: 786px) {
   .demoCard div[data-dc="3"] {
     width:100%;
 	margin:0;

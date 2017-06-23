@@ -24,8 +24,8 @@ demoCard.prototype.gridy = function() {
 
     this.el.innerHTML = "";
     this.el.appendChild(this.hdiv);
-    this.el.appendChild(this.idiv);
-    this.el.appendChild(this.pdiv);
+    this.hdiv.appendChild(this.idiv);
+    this.hdiv.appendChild(this.pdiv);
     this.el.appendChild(this.adiv);
 };
 /*
