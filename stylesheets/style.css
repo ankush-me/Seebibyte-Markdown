@@ -742,9 +742,7 @@ h2 {
     align-self: flex-start
 }
 
-.footer-sign-up-container,
-.logo,
-header ul {
+.logo, header ul {
     -ms-grid-row-align: center;
     align-self: center
 }
@@ -894,33 +892,6 @@ i.icon {
     content: "\e046"
 }
 
-@font-face {
-    font-family: ElegantIcons;
-    src: url(/static/fonts/ElegantIcons.eot);
-    src: url(/static/fonts/ElegantIcons.eot?#iefix) format('embedded-opentype'), url(../fonts/ElegantIcons.woff) format('woff'), url(../fonts/ElegantIcons.ttf) format('truetype'), url(../fonts/ElegantIcons.svg#ElegantIcons) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-.social-facebook:before,
-.social-instagram:before,
-.social-twitter:before {
-    font-family: ElegantIcons;
-    -webkit-font-smoothing: antialiased
-}
-
-.social-facebook:before {
-    content: "\e093"
-}
-
-.social-instagram:before {
-    content: "\e09a"
-}
-
-.social-twitter:before {
-    content: "\e094"
-}
-
 footer {
     padding: 0 0 20px;
     font-size: 17px;
@@ -1010,33 +981,6 @@ footer {
 .copyright {
     margin: 6px 0 0;
     font-size: .7em
-}
-
-.footer-sign-up-container {
-    margin: 5px 0 30px;
-    text-align: center;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    -ms-flex-item-align: center
-}
-
-.footer-sign-up-container p {
-    margin-top: 0;
-    font-size: 1.41em
-}
-
-.footer-auth-sign-up {
-    padding: 10px 30px;
-    font-size: .82em;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 25px;
-    box-shadow: 0 0 1px #819fa7
-}
-
-.footer-auth-sign-up:hover {
-    color: #003d4d;
-    background: #fff
 }
 
 .footer-logo {
@@ -2519,7 +2463,7 @@ header .icon-carat-down:hover {
 .content-home .case-studies .tabs {
     display: -ms-flexbox;
     display: flex;
-   
+
     margin: 0 auto 72px;
     -ms-flex-pack: center;
     justify-content: center
@@ -2571,17 +2515,6 @@ header .icon-carat-down:hover {
     font-size: 50px;
     display: block;
     text-align: center
-}
-
-.content-home .case-studies .quote-text:before {
-    content: '“';
-    font-weight: 700
-}
-
-.content-home .case-studies .quote-text:after {
-    content: '”';
-    font-weight: 700;
-    line-height: 100px
 }
 
 .content-home .case-studies .quote-person {
@@ -2645,7 +2578,7 @@ header .icon-carat-down:hover {
 .content-home .customers {
     background-color: rgb(20,20,20);
     padding: 80px 0 77px;
-    
+
 }
 
 .content-home .customers h4 {
@@ -2959,7 +2892,7 @@ header .icon-carat-down:hover {
     .content-home .case-studies {
         padding: 100px 0 77px
     }
-   
+
     .content-home .case-studies h5 {
         width: 100%
     }
@@ -3016,7 +2949,7 @@ header .icon-carat-down:hover {
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
-        
+
         background-position: 50% 0
     }
     .content-home .empower {

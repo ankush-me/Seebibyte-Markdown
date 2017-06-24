@@ -1,7 +1,7 @@
 body {
 	font-family:'Roboto',sans-serif;
 	font-weight:100;
-	
+
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 
 .case-studies {
 	padding:0 !important;
-	
+
 }
 
 .quote {
@@ -31,7 +31,7 @@ body {
 }
 
 .demo {
-	
+
 	height:auto !important;
 	padding-bottom:200px !important;
 }
@@ -71,7 +71,7 @@ body {
 
 .stats ul {
 	max-width:960px;
-	
+
 }
 
 .stats .description p {
@@ -100,14 +100,14 @@ body {
 
 .stats .title {
 	font-size:24px;
-	
+
 	font-weight:300;
 }
 
 .stats li {
 	max-width:360px;
 	margin:30px;
-} 
+}
 
 .bibtex {
 	max-width: 100%;
@@ -117,7 +117,7 @@ body {
 .animation-image {
 	max-width:280px;
 	background-size:contain !important;
-	
+
 	overflow:hidden;
 	width:480px;
 	}
@@ -157,7 +157,7 @@ body {
 
 
 .publicat {
-	
+
 	color:black;
 	padding:100px 20px;
 	text-align:left;
@@ -203,7 +203,7 @@ hr {
 .people {
 	padding-top:30px;
 	padding-bottom:100px;
-	
+
 	text-align:center;
 	font-family:'Roboto';
 	font-weight:100;
@@ -265,11 +265,11 @@ hr {
 .people ul {
 	list-style:none;
 	margin:0 auto;
-	
+
 }
 
 .people li {
-	
+
 	padding:1em;
 	display:inline-block;
 	vertical-align:top;
@@ -289,13 +289,13 @@ hr {
 	margin:0 auto;
 	text-align:center;
 	padding-bottom:100px;
-	
-} 
+
+}
 
 .partner-section p{
 	display:none;
-	
-} 
+
+}
 
 
 .partner-section h4{
@@ -303,9 +303,9 @@ hr {
 	font-family:'Roboto',sans-serif;
 	font-weight:100;
 	padding-top:60px;
-	
-	
-} 
+
+
+}
 
 .partner-section h1 {
 	font-size:28px;
@@ -313,23 +313,13 @@ hr {
 	font-weight:300;
 	line-height:45px;
 	padding-top:40px;
-	
+
 }
 
 .partner-section img{
 	max-height:60px;
 	margin:20px;
 	max-width:260px;
-}
-
-.customer-logo.microsoft {
-	background-image:url(../logos/microsoft.png);
-}
-.customer-logo.qualcomm {
-	background-image:url(../logos/qualcomm.png);
-}
-.customer-logo.bbc {
-	background-image:url(../logos/bbc.png);
 }
 
 .content-home h6 {
@@ -339,7 +329,6 @@ hr {
 
 footer a {
   font-family:'Roboto',sans-serif;
-  text-transform:uppercase;
   box-sizing:border-box;
   background-color:transparent;
   color:#fff;
@@ -352,7 +341,7 @@ footer a {
   border: 1px solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
-  outline-color: rgba(255, 255, 255, .5);
+  outline-color: rgba(255, 255, 255, .2);
   outline-offset: 0px;
   text-shadow: none;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -360,17 +349,12 @@ footer a {
   padding:0 10px;
   border-color:transparent;
   font-weight:100;
-  }
-
-footer a:hover {
-
-  text-shadow: 1px 1px 2px #427388;
 }
 
-	footer {padding:20px;text-align:center;background-color:#1F2933;color:#fff}
-	footer h1 { font-size:36px;font-weight:100;margin:0 auto; }
-	footer h2 { font-size:24px;font-weight:100;margin:0 auto; }
-	footer img{ max-width:160px;display:inline-block;padding:0;}
-	footer p  { max-width:460px;display:inline-block;font-size:16px;text-align:justify;padding:20px;vertical-align:middle;font-weight:100;margin:0 auto;}
-	footer ul { max-width: 1000px;position: relative;list-style: none;margin:0 auto; }
-	footer li { display:inline-block;}
+footer {padding:20px;text-align:center;background-color:#1F2933;color:#fff}
+footer h1 { font-size:36px;font-weight:100;margin:0 auto; }
+footer h2 { font-size:24px;font-weight:100;margin:0 auto; }
+footer img{ height:40px;max-width:160px;display:inline-block;padding:0;}
+footer p  { max-width:460px;display:inline-block;font-size:16px;text-align:justify;padding:20px;vertical-align:middle;font-weight:100;margin:0 auto;}
+footer ul { max-width: 1000px;position: relative;list-style: none;margin:0 auto; }
+footer li { display:inline-block;}

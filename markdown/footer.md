@@ -5,13 +5,13 @@
 
 *	## Quick Links
 
-	[Visual Geometry Group](http://www.robots.ox.ac.uk/~vgg/) 
-	[Department of Engineering Science](http://www.eng.ox.ac.uk/) 
+	[Visual Geometry Group](http://www.robots.ox.ac.uk/~vgg/)
+	[Department of Engineering Science](http://www.eng.ox.ac.uk/)
 	[The Engineering and Physical Sciences Research Council](https://www.epsrc.ac.uk/)
 
 *	## Partners
 
-	![](images/oxford.png) 
+	![](images/oxford.png)
 	![](images/epsrc.jpg)
 
 *	## Get in Touch
