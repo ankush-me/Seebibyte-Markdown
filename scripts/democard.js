@@ -19,8 +19,8 @@ demoCard.prototype.gridy = function() {
     this.idiv.appendChild(this.el.getElementsByTagName("img")[0]);
     this.pdiv.appendChild(this.el.getElementsByTagName("h2")[0]);
     this.pdiv.appendChild(this.el.getElementsByTagName("p")[1]);
-    this.idiv.appendChild(this.el.getElementsByTagName("a")[0]);
-    this.idiv.appendChild(this.el.getElementsByTagName("a")[0]);
+    this.pdiv.appendChild(this.el.getElementsByTagName("a")[0]);
+    this.pdiv.appendChild(this.el.getElementsByTagName("a")[0]);
 
     this.el.innerHTML = "";
     this.el.appendChild(this.hdiv);

@@ -1,4 +1,4 @@
-*   # Demo 1: BBC
+*   # BBC NEWS SEARCH
 
     ## VISUAL SEARCH OF BBC NEWS
 
@@ -12,10 +12,10 @@
 	to query the dataset on-the-fly for three different query types:
 	object search, image search and people search.
 
-    [Demo](http://varro3.robots.ox.ac.uk:9090/) 
+    [Demo](http://varro3.robots.ox.ac.uk:9090/)
 	[Details](http://www.robots.ox.ac.uk/~vgg/research/on-the-fly/)
 
-*   # Demo 2: Paintings
+*   # Paintings
 
     ## VISUAL SEARCH OF PAINTINGS
 
@@ -27,12 +27,12 @@
 	choosing (such as "baby", "bird", or "dog, for example) in a dataset
 	of over 200,000 paintings, in a matter of seconds.
 
-    [Demo](http://varro2.robots.ox.ac.uk:8085/) 
+    [Demo](http://varro2.robots.ox.ac.uk:8085/)
 	[Details](http://www.robots.ox.ac.uk/~vgg/research/art_search/)
 
-*   # Demo 3: Smart Specs
+*   # Smart Specs
 
-    ## VISUAL SEARCH OF PAINTINGS
+    ## SEMANTIC SEGMENTATION
 
     ![](images/demo3.png)
 
@@ -45,5 +45,5 @@
 	work is part of a project to build augmented reality glasses for the
 	partially sighted.
 
-    [Demo](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo) 
-	[Smart specs](http://www.va-st.com/smart-specs/)
+    [Demo](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo)
+	[Details](http://www.va-st.com/smart-specs/)
