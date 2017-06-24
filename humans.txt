@@ -1,0 +1,16 @@
+	Team
+	
+	Name:Nishchay Garg
+	Github:@nicechay
+
+	Name:Satyam Mittal
+	Github:@satyammittal
+
+
+	For editing,issues and reuse of modules 
+	linkCard,demoCard,custCard,aboutCard 
+    contact Github:@nicechay
+	
+	Thanks to
+	https://daneden.github.io/animate.css/
+	https://github.com/jonschlinkert/remarkable
