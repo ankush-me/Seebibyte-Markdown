@@ -12,7 +12,7 @@
 *	## Partners
 
 	![](images/oxford.png)
-	![](images/epsrc.jpg)
+	![](images/epsrc.png)
 
 *	## Get in Touch
 
