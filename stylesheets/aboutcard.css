@@ -34,7 +34,7 @@
   font-size: 24px;
   font-weight: 100 !important;
   font-family:'Roboto',sans-serif;
-  
+
 }
 .aboutCard div[data-ac="2"] h2 {
   margin: 0;
@@ -42,7 +42,7 @@
   font-size: 20px;
   cursor: pointer;
   font-family:'Roboto',sans-serif;
-  
+
 }
 .aboutCard div[data-ac="2"] h2:before {
   content: "❮";
@@ -73,20 +73,17 @@
   font-weight: 400;
   cursor: pointer;
   padding: 18px;
-  
+
 }
 
 .aboutCard div[data-width="40"] span {
 	display:none;
 }
 
-
-
 .aboutCard div[data-width="40"] {
 	width:320px;
 	display:inline-block;
 	vertical-align:top;
-	
 }
 
 .aboutCard div[data-width="60"] {
