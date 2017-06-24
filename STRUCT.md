@@ -15,7 +15,7 @@ Location  | About
 
 ##	Frameworks,libraries or plugins
 Purpose | Location  | Link
----- | ----
+---- | ---- | ----
 Markdown Rendering	|	/scripts/remarkable.min.js | 	http://github.com/jonschlinkert/remarkable
 
 ## Guidelines for changing markdown files
