@@ -1,5 +1,5 @@
 *   ConvNet Text Spotting
-    ![](images/txtspot.png)  
+    ![](images/txtspot.jpg)  
     [](http://www.robots.ox.ac.uk/~vgg/software/textspot/)
 
 *   ConvNet Keypoint Detection

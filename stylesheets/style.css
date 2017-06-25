@@ -736,7 +736,7 @@ header .icon-carat-down:hover {
 
 .content-home .demo {
     position: relative;
-    background-image: url(../images/demobg.jpg);
+    background-image: url(../images/bg.jpg);
     padding-top: 232px;
     color: #fff;
     height: 416px;
@@ -1258,7 +1258,5 @@ header .icon-carat-down:hover {
         margin-right: auto;
         margin-bottom: 50px
     }
-   
+
 }
-
-
