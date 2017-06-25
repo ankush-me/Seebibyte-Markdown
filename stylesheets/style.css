@@ -84,25 +84,7 @@ html {
     text-decoration: inherit
 }
 
-.icon-reference .icons {
-    display: -ms-flexbox;
-    display: flex
-}
 
-.icon-reference .icons>li {
-    margin: .3em .2em;
-    width: 5em;
-    padding: 6px;
-    background: #fff;
-    border-radius: 5px;
-    text-align: center
-}
-
-.icon-reference .icons .icon {
-    display: block;
-    padding: 5px;
-    font-size: 50px
-}
 
 body,
 ul {
@@ -110,25 +92,7 @@ ul {
     margin: 0
 }
 
-.icon-reference .icon-codepoint,
-.icon-reference .icon-name {
-    font-size: .7em;
-    color: #999;
-    display: block;
-    font-family: monospace
-}
 
-.icon-check:before {
-    content: "\EA01"
-}
-
-.icon-x:before {
-    content: "\EA02"
-}
-
-.icon-mail:before {
-    content: "\EA03"
-}
 
 .icon-carat-down:before {
     content: "\EA04"
