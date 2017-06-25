@@ -1,0 +1,40 @@
+.themeCard {
+	max-width:960px;
+	padding:60px 20px;
+	margin:0 auto;
+	z-index:2;
+	position:relative;
+}
+
+.themeCard h1,	.themeCard h2, .themeCard blockquote,	.themeCard p {
+	font-family:'Roboto',sans-serif;
+	font-weight:100;
+	text-transform:none;
+	margin:0;
+	color:white;
+	line-height:1.4;
+}
+
+.themeCard h1 {
+	font-size:36px;
+	text-align:center;
+	font-weight:300;
+}
+
+.themeCard h2 {
+	font-size:24px;
+	text-align:left;
+	padding-top:30px;
+}
+
+.themeCard blockquote p {
+	text-align:center;
+	font-size:22px;
+	padding:20px;
+}
+
+.themeCard p {
+	font-size:18px;
+	font-weight:300;
+	text-align:justify;
+}

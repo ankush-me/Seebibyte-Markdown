@@ -33,7 +33,7 @@ body {
 .demo {
 
 	height:auto !important;
-	padding-bottom:200px !important;
+	padding-bottom:200px;
 }
 
 .case-studies-inner {
@@ -326,6 +326,11 @@ hr {
 	font-size:36px;
 	font-weight:100;
 	font-family:'Roboto',sans-serif;
+}
+
+.demo.themesect {
+	padding:0;
+	margin:0;
 }
 
 footer a {
