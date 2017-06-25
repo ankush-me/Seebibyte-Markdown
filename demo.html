@@ -38,8 +38,8 @@
 		</ul>
 		</nav>
 		</li>
-
-      </ul>
+		
+      </ul> 
     </nav>
   </div>
 </header>
@@ -51,12 +51,11 @@
         <h5>As the project progresses we will add full details on this website about our new software releases.
 	In advance, here is a taster of previous software demonstrations.
 	</h5>
-        <!-- <div >
-            <div class="tab">Demo 1: BBC</div>
-            <div class="tab">Demo 2: Paintings</div>
-            <div class="tab">Demo 3: Smart Specs</div>
-        </div> -->
+        <div class="tabs tablist">
+
+        </div>
         <div class="demodiv markdowner">
+
         </div>
     </div>
 
@@ -70,23 +69,23 @@
 	<script src="scripts/democard.js" ></script>
 	<script src="scripts/aboutcard.js" ></script>
 	<script src="scripts/linkcard.js" ></script>
-
+	
 	<script>
 	function init() {
 	var dcel = document.getElementsByClassName("demodiv")[0];
 	var dclis = dcel.getElementsByTagName("li");
-
+	
 	for(var i=0;i<dclis.length;i++) {
 		dclis[i].classList.add("demoCard");
 		var dcobj = new demoCard(dclis[i]);
 		dcobj.gridy();
 	}
-
+	
 	function tabList(el,div) {
 	this.el = el;
 	this.div = div;
 	this.li = this.div.getElementsByTagName("li");
-
+	
 	this.tabs;
 }
 
@@ -98,9 +97,9 @@ tabList.prototype.init = function() {
 	this.tabs = this.el.getElementsByClassName("tab");
 	var that = this;
 	for(var i=0;i<this.li.length;i++) {
-
+		
 		this.el.onclick = function(e) {
-
+			
 			if(e.target.classList.contains("tab")) {
 			that.hideAll();
 			var idx = e.target.getAttribute("data-index");
@@ -121,12 +120,23 @@ tabList.prototype.hideAll = function() {
 		this.tabs[i].classList.remove("selected");
 	}
 	}
+	
+};
 
+tabList.prototype.showAll = function() {
+		for(var i=0;i<this.li.length;i++) {
+		this.li[i].style.display = "block";
+		if(this.tabs[i].classList.contains("selected")) {
+		this.tabs[i].classList.remove("selected");
+	}
+	}
 };
 
 var tl =new tabList(document.getElementsByClassName("tablist")[0],document.getElementsByClassName("demodiv")[0]);
 console.log(tl);
 tl.init();
+tl.showAll();
+tl.el.style.display = "none";
 }
 
 	</script>

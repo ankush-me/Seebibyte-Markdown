@@ -28,6 +28,7 @@ demoCard.prototype.gridy = function() {
     this.hdiv.appendChild(this.pdiv);
     this.el.appendChild(this.adiv);
 };
+
 /*
 var dc = new demoCard(document.getElementsByClassName("demoCard")[0]);
 dc.gridy();

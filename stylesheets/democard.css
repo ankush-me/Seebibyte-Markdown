@@ -26,6 +26,7 @@
 }
 .demoCard div[data-dc="2"] {
   width: 500px;
+  
   height: 100%;
   display: table-cell;
   padding: 60px 20px;
@@ -35,6 +36,7 @@
   background-color:#fff;
   box-shadow: 0 4px 8px 0 rgba(31,42,51,.08);
   border-right:10px solid #F5F7FA;
+  
 }
 @media (max-width: 786px) {
   .demoCard div[data-dc="2"] {
@@ -42,7 +44,7 @@
 	width:100%;
 	border:0
   }
-
+  
 }
 
 @media (max-width: 460px) {
@@ -56,11 +58,11 @@
   width: 100%;
   padding-bottom:25px;
   margin: 0 auto;
-  max-height:210px;
   max-width:400px;
   display:block;
-
+ 
 }
+
 
 .demoCard div[data-dc="3"] {
   display: table-cell;
@@ -94,9 +96,12 @@
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
   line-height: 24px;
-  padding-bottom: 20px;
+  padding-bottom:30px;
 }
-
+.demoCard div[data-dc="4"] {
+  max-width: 100%;
+  text-align: center;
+}
 .demoCard div[data-dc="3"] a {
   text-decoration: none;
   font-family: 'Roboto',sans-serif;
@@ -109,13 +114,13 @@
   border-radius: 20px;
   font-weight:400;
   width:140px;
+  
+ 
 }
 .demoCard div[data-dc="3"] a:hover {
   background-color: #00B2FF;
   color: #fff;
 }
 
-.demoCard div[data-dc="4"] {
-  max-width: 100%;
-  text-align: center;
-}
+
+
