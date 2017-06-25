@@ -283,7 +283,7 @@ p {
 footer {
     padding: 0 0 20px;
     font-size: 17px;
-    background-color: #1F2933;
+    background-color: #002147;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto
 }
@@ -320,7 +320,7 @@ header .icon-carat-down {
 }
 
 header .icon-carat-down:hover {
-    color: #1F2933
+    color: #002147
 }
 
 .header-inner {
@@ -381,11 +381,11 @@ header .icon-carat-down:hover {
 }
 
 .nav-item a:hover {
-    color: #1F2933
+    color: #002147
 }
 
 .nav-item.active-nav a {
-    color: #00B2FF
+    color: #0077FF
 }
 
 .nav-item:last-child {
@@ -403,7 +403,7 @@ header .icon-carat-down:hover {
 .nav-btn {
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #1F2933;
+    border: 2px solid #002147;
     border-radius: 20px;
     margin-right: 12px;
     font-weight: 500
@@ -411,18 +411,18 @@ header .icon-carat-down:hover {
 
 .nav-btn a {
     padding: 8px 16px;
-    color: #1F2933;
+    color: #002147;
     cursor: pointer;
     display: inline-block
 }
 
 .nav-btn.blue,
 .nav-btn.blue a {
-    color: #00B2FF
+    color: #0077FF
 }
 
 .nav-btn.blue {
-    border: 2px solid #00B2FF
+    border: 2px solid #0077FF
 }
 
 .nav-btn:hover a,
@@ -431,11 +431,11 @@ header .icon-carat-down:hover {
 }
 
 .nav-btn:hover {
-    background-color: #1F2933
+    background-color: #002147
 }
 
 .nav-btn:hover.blue {
-    background-color: #00B2FF
+    background-color: #0077FF
 }
 
 @media (min-width:960px) {
@@ -614,11 +614,11 @@ header .icon-carat-down:hover {
 }
 
 .header-dropdown .dropdown-nav-item a.active-nav-dropdown {
-    color: #00B2FF
+    color: #0077FF
 }
 
 .header-dropdown .dropdown-nav-item a:hover {
-    color: #1F2933
+    color: #002147
 }
 
 .header-dropdown.header-dropdown-careers .careers,
@@ -627,7 +627,7 @@ header .icon-carat-down:hover {
 .header-dropdown.header-dropdown-organization .organization,
 .header-dropdown.header-dropdown-services .services,
 .header-dropdown.header-dropdown-visual-search .visual-search {
-    color: #00B2FF
+    color: #0077FF
 }
 
 @media (max-width:768px) {
@@ -710,7 +710,7 @@ header .icon-carat-down:hover {
 .content-home h4 {
     font-size: 34px;
     letter-spacing: .7px;
-    color: #1F2933
+    color: #002147
 }
 
 .content-home h5 {
@@ -812,8 +812,8 @@ header .icon-carat-down:hover {
 
 .content-home .demo .refresh-image {
     text-align: center;
-    color: #00B2FF;
-    border: 1px solid #00B2FF;
+    color: #0077FF;
+    border: 1px solid #0077FF;
     border-radius: 20px;
     background-color: transparent;
     padding: 11px 22px;
@@ -842,7 +842,7 @@ header .icon-carat-down:hover {
     font-weight: 300;
     letter-spacing: .5px;
     text-align: center;
-    color: #1F2933;
+    color: #002147;
     margin: 0 auto 30px
 }
 
@@ -907,19 +907,19 @@ header .icon-carat-down:hover {
     font-weight: 700;
     letter-spacing: 1.2px;
     text-align: left;
-    color: #1F2933;
+    color: #002147;
     margin: 0 20px;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .content-home .case-studies .tab.selected {
-    color: #00B2FF;
+    color: #0077FF;
     border-bottom: 2px solid
 }
 
 .content-home .case-studies .quote {
-    background-color: #1F2933;
+    background-color: #002147;
     color: #fff;
     padding: 80px 0;
     width: 100%;
@@ -944,7 +944,7 @@ header .icon-carat-down:hover {
 .content-home .case-studies .quote-text:after,
 .content-home .case-studies .quote-text:before {
     font-family: source-sans-pro;
-    color: #00B2FF;
+    color: #0077FF;
     font-size: 50px;
     display: block;
     text-align: center
@@ -993,7 +993,7 @@ header .icon-carat-down:hover {
     font-weight: 300;
     letter-spacing: .5px;
     text-align: center;
-    color: #1F2933;
+    color: #002147;
     width: 420px;
     margin: 0 auto 30px;
     line-height: 1.4
@@ -1024,9 +1024,9 @@ header .icon-carat-down:hover {
 .content-home .empower .stat-measurement,
 .content-home .empower .stat-title {
     letter-spacing: 1.2px;
-    color: #1F2933;
+    color: #002147;
     text-transform: uppercase;
-    border-bottom: 2px solid #00B2FF
+    border-bottom: 2px solid #0077FF
 }
 
 .content-home .customers .customer-logos {
@@ -1077,7 +1077,7 @@ header .icon-carat-down:hover {
     font-size: 90px;
     font-weight: 300;
     text-align: left;
-    color: #1F2933;
+    color: #002147;
     line-height: 80px;
     margin-bottom: 19px
 }
