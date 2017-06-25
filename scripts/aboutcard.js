@@ -2,6 +2,7 @@ function aboutCard(el) {
   this.el =   el;
   this.img =  this.el.getAttribute("data-img");
   this.name = this.el.getAttribute("data-name");
+  this.href = this.el.getAttribute("data-href");
   this.info = this.el.innerText;
   this.cimg;this.cname;this.cinfo;
   this.arr = [];
@@ -43,7 +44,7 @@ aboutCard.prototype.divify = function() {
   this.cname.setAttribute("data-ac","2");
   this.cinfo = document.createElement("div");
   this.cinfo.setAttribute("data-ac","3");
-  this.cimg.innerHTML = '<img src="'+this.img+'" alt="'+this.name+'" />';
+  this.cimg.innerHTML = '<a href="'+this.href+'"><img src="'+this.img+'" alt="'+this.name+'" /></a>';
   this.cname.innerHTML = '<h1>'+this.name+'</h1><p><span data-acspan="1">ABOUT</span></p>';
   this.cinfo.innerHTML = '<p></p>';
   this.el.innerHTML = "";

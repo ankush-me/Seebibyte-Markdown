@@ -2,7 +2,7 @@
 
 *   # Dr. Carlos Arteta
 
-    ![](images/res1.jpg)
+    [![](images/res1.jpg)]("#")
 
 	Carlos Arteta is a post-doctoral researcher at the VGG group,
 	University of Oxford, working for the Seebibyte Project.. His
@@ -13,7 +13,7 @@
 
 *   # Dr. Vasileios Belagiannis
 
-    ![](images/res2.jpg)
+    [![](images/res2.jpg)]("#")
 
 	Vasileios Belagiannis is a postdoc researcher at the University of Oxford,
 	working for the Seebibyte Project. His research is mainly focused on understanding
@@ -29,7 +29,7 @@
 
 *   # Dr. Abhishek Dutta
 
-    ![](images/res3.jpg)
+    [![](images/res3.jpg)]("#")
 
 	Abhishek Dutta is a Seebibyte Project Research Software Engineer.
 	His research interests span a wide range of avenues in Computer Vision,
@@ -41,7 +41,7 @@
 
 *   # Dr. Ernesto Coto
 
-    ![](images/res4.jpg)
+    [![](images/res4.jpg)]("#")
 
 	Ernesto Coto is a Seebibyte Project Research Software Engineer.
 	He received his PhD degree in Computer Sciences from the Central University
@@ -59,7 +59,7 @@
 
 *   # Dr. Weilin Huang
 
-    ![](images/res5.jpg)
+    [![](images/res5.jpg)]("#")
 
 	Weilin Huang is a postdoc researcher at the University of Oxford,
 	working for the Seebibyte Project. His research interests are in
