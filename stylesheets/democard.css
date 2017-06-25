@@ -26,11 +26,10 @@
 }
 .demoCard div[data-dc="2"] {
   width: 500px;
-  
   height: 100%;
   display: table-cell;
   padding: 60px 20px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
   margin:0 auto;
   background-color:#fff;
@@ -48,7 +47,7 @@
 }
 
 @media (max-width: 460px) {
-	.demoCard div[data-dc="2"] a {
+	.demoCard div[data-dc="3"] a {
 		display:block;
 		margin:0 auto;
 		text-align:center;
