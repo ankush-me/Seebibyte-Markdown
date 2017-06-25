@@ -28,7 +28,7 @@
   width: 500px;
   height: 100%;
   display: table-cell;
-  padding: 60px 20px;
+  padding: 20px;
   vertical-align: middle;
   text-align: center;
   margin:0 auto;
@@ -65,7 +65,7 @@
 
 .demoCard div[data-dc="3"] {
   display: table-cell;
-  padding: 90px 84px;
+  padding: 60px 60px;
   text-align: center;
   margin: 0 auto;
   height:100%;
@@ -113,8 +113,6 @@
   border-radius: 20px;
   font-weight:400;
   width:140px;
-
-
 }
 .demoCard div[data-dc="3"] a:hover {
   background-color: #0077FF;
