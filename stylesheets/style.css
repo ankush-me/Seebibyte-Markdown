@@ -203,7 +203,7 @@ h2 {
 .content {
     position: relative;
     width: 1080px;
-    padding: 100px 0 40px;
+    padding: 70px 0 40px;
     margin: 0 auto;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
@@ -296,7 +296,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
-    height: 100px;
+    height: 70px;
     font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.13;
