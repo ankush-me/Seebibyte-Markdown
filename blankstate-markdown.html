@@ -12,10 +12,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/index.css">
-	<!-- <link rel="stylesheet" href="stylesheets/blankstate.css"> -->
 </head>
 <body>
-<!-- header to be added to all pages -->
+
 <header>
   <div class="header-inner" >
     <a class="logo col-1" ></a>
@@ -40,19 +39,27 @@
     </nav>
   </div>
 </header>
-<!--header ends and content below -->
-<div class="content content-home" >
+<!-- data-md attribute contains the source of markdown files , data-hasmd should be set 1 if markdown file is associated -->
+<div class="content content-home" data-md="markdown/blankstate.md" data-hasmd="1" >
 
-<!-- content here  -->
+<div class="markdowner" >
+<!--Markdown content will be loaded here -->
+</div> 
 
 </div>
 
-<!-- FOOTER is loaded from markdown/footer.md -->
 <footer>
 
 </footer>
 	<script src="scripts/remarkable.min.js"></script>
 	<script src="scripts/index.js" ></script>
+	<script>
+	function init() {
+	//init function can be assumed as callback after the markdown is loaded.
+	
+	}
+	
+	</script>
 	
 </body>
 </html>
