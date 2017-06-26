@@ -2,7 +2,7 @@
 
 *   # Prof. Andrew Zisserman
 
-    [![](images/inv1.jpg)]("http://www.robots.ox.ac.uk/~az")
+    [![](images/inv1.jpg)](http://www.robots.ox.ac.uk/~az)
 
     Prof. Andrew Zisserman, FRS, is the Principal Investigator for
 	Seebibyte. He is the Professor of Computer Vision Engineering
@@ -23,7 +23,7 @@
 
 *   # Prof. Alison Noble
 
-    [![](images/inv2.jpg)]("http://www.ibme.ox.ac.uk/research/biomedia/people/professor-alison-noble")
+    [![](images/inv2.jpg)](http://www.ibme.ox.ac.uk/research/biomedia/people/professor-alison-noble)
 
     Prof. Alison Noble, OBE FREng, is the Technikos Professor of Biomedical
 	Engineering in the Oxford University Department of Engineering Science
@@ -43,7 +43,7 @@
 
 *   # Prof. Andrea Vedaldi
 
-    [![](images/inv3.jpg)]("http://www.robots.ox.ac.uk/~vedaldi//")
+    [![](images/inv3.jpg)](http://www.robots.ox.ac.uk/~vedaldi//)
 
     Prof. Andrea Vedaldi is Professor in the Department of Engineering Science
 	at the University of Oxford. He is an expert in large scale machine learning
@@ -61,7 +61,7 @@
 
 *   # Prof. Phil Torr
 
-    [![](images/inv4.jpg)]("http://www.robots.ox.ac.uk/~phst/")
+    [![](images/inv4.jpg)](http://www.robots.ox.ac.uk/~phst/)
 
     Prof. Phil Torr is Professorial Research Fellow in the Oxford University
 	Department of Engineering Science. He has worked on several areas of
@@ -80,7 +80,7 @@
 
 *   # Prof. Jens Rittscher
 
-    [![](images/inv5.jpg)]("http://www.ibme.ox.ac.uk/research/biomedia/jens-rittscher")
+    [![](images/inv5.jpg)](http://www.ibme.ox.ac.uk/research/biomedia/jens-rittscher)
 
     The research of Prof. Jens Rittscher is to enable biomedical imaging through
 	the development of new algorithms and novel computational platforms.
