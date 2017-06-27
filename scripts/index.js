@@ -1,3 +1,5 @@
+
+function initHeader() {
 document.getElementById("hamburger").onclick = function() {
 	document.body.classList.toggle("show-mobile-nav");
 };
@@ -9,14 +11,18 @@ for(var i=0;i<nav.length;i++) {
 	if(document.body.classList.contains("show-mobile-nav")) {
 	document.body.classList.remove("show-mobile-nav");	
 	}
-	loadNav(this);
+
 	}
 }
-
-document.getElementsByClassName("has-dropdown")[0].onclick = function() {
-	document.getElementsByClassName("header-dropdown")[0].classList.toggle("showit");
+for(var i=0;i<document.getElementsByClassName("has-dropdown").length;i++) {
+document.getElementsByClassName("has-dropdown")[i].onclick = function() {
+	document.getElementsByClassName("header-dropdown")[i].classList.toggle("showit");
 };
+}
 
+}
+
+initHeader();
 var mdreq;
 var mddiv = document.getElementsByClassName("content")[0];
 var mdsec = mddiv.getElementsByClassName("markdowner")[0];
