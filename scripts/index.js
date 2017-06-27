@@ -12,11 +12,11 @@ for(var i=0;i<nav.length;i++) {
 	document.body.classList.remove("show-mobile-nav");	
 	}
 
-	}
+	};
 }
 for(var i=0;i<document.getElementsByClassName("has-dropdown").length;i++) {
 document.getElementsByClassName("has-dropdown")[i].onclick = function() {
-	document.getElementsByClassName("header-dropdown")[i].classList.toggle("showit");
+	this.getElementsByClassName("header-dropdown")[0].classList.toggle("showit");
 };
 }
 
