@@ -1,3 +1,24 @@
+function jaxer(file,cb) {
+	this.req;
+	this.file = file;
+	this.cb = cb;
+	
+}
+
+jaxer.prototype.req = function() {
+	var that = this;
+	this.req = new XMLHttpRequest();
+	this.req.onreadystatechange = function() {that.load(); };
+	this.req.open("GET",that.file);
+	this.req.send();
+};
+
+jaxer.prototype.load = function() {
+	var that = this;
+	if(that.req.readyState === 4 && that.req.status == 200) {
+		that.cb(that.req.responseText);
+	}
+};
 
 function initHeader() {
 document.getElementById("hamburger").onclick = function() {
@@ -22,7 +43,15 @@ document.getElementsByClassName("has-dropdown")[i].onclick = function() {
 
 }
 
-initHeader();
+var jxhead = new jaxer("nav.html",function(resp){
+	document.getElementsByTagName("header")[0].innerHTML = resp;
+	initHeader();
+	if(document.getElementsByTagName("header")[0].getAttribute("data-index")) {
+	document.getElementsByClassName("nav-item")[parseInt(document.getElementsByTagName("header")[0].getAttribute("data-index"))].classList.add("active-nav");
+	}
+});
+jxhead.req();
+
 var mdreq;
 var mddiv = document.getElementsByClassName("content")[0];
 var mdsec = mddiv.getElementsByClassName("markdowner")[0];
