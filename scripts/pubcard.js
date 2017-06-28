@@ -1,13 +1,15 @@
-function pubCard(el) {
+// require('axios')
+
+function pubCard(el,url) {
 	this.el=el;
+	this.url=url;
 	this.req;
-	this.para=this.el.getElementsByTagName("p");
-	this.author=this.para[0];
-	this.title=this.para[1];
-	this.booktitle=this.para[2];
+	this.author;
+	this.title;
+	this.booktitle;
 	
 }
 
-pubCard.prototype.getbib = function() {
-
+pubCard.prototype.init = function() {
+	
 };

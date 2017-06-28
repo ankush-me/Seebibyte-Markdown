@@ -742,10 +742,11 @@ header .icon-carat-down:hover {
     height: 416px;
     background-position: 50% 50%
 }
-
+/*
 .content-home .demo h3 {
     width: 320px
 }
+*/
 
 .content-home .demo .image-darkener {
     position: absolute;
@@ -1009,7 +1010,7 @@ header .icon-carat-down:hover {
 }
 
 .content-home .customers {
-    background-color: rgb(20,20,20);
+    
     padding: 80px 0 77px;
 
 }
@@ -1018,7 +1019,7 @@ header .icon-carat-down:hover {
     font-size: 26px;
     letter-spacing: .5px;
     margin-bottom: 67px;
-	color:white;
+	
 }
 
 .content-home .empower .stat-measurement,

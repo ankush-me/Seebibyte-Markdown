@@ -1,1 +1,35 @@
-pubcard css
+.publicat {
+
+	color:black;
+	padding:100px 20px;
+	text-align:left;
+	max-width:960px;
+	margin:0 auto;
+}
+
+.publicat h1 {
+	font-size:28px;
+	font-weight:100;
+	text-align:left;
+	margin:0;
+	line-height:45px;
+	padding-top:60px;
+}
+
+
+
+.publicat h3 {
+	font-size:18px;
+	text-decoration:none;
+	color:#0077FF;
+}
+
+.publicat h2 {
+	font-size:18px;
+	font-weight:100;
+	text-transform:none;
+	text-align:left;
+}
+
+
+
