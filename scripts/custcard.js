@@ -10,16 +10,26 @@ function custCard(el) {
 	this.cw = 0;
 	// console.log(this.cw);
 	// console.log(this.liw);
-	// console.log(this.ulw);
+	
 }
 
 custCard.prototype.animator = function() {
-	this.ul.style.transform = "translate3d(-"+this.cw+"px,0,0)";
-	this.cw = (this.cw+this.liw)%this.ulw;
+	var that = this;
+	//that.ul.classList.add("anim");
+	that.ul.style.transform = "translate3d(-"+this.cw+"px,0,0)";
+	
+	if(this.cw==this.liw) {
+		this.cw = 0;
+		that.ul.classList.remove("anim");
+		that.ul.style.transform = "translate3d(0,0,0)";
+		that.ul.appendChild(that.ul.getElementsByTagName("li")[0]);
+	}
+	
+	this.cw = this.cw+2;
+		
+	
 };
 
 var cc = new custCard(document.getElementsByClassName("custCard")[0]);
 
-setInterval(function() {
-	cc.animator();
-},2000);
+ setInterval(function(){cc.animator();},20);

@@ -21,7 +21,11 @@
 	padding:0;
 	display:table;
 	margin:0 auto;
-	transition: all 1s ease-out;
+	
+}
+
+.custCard ul.anim {
+	transition: all 300ms ease-out;
 }
 
 .custCard li {
