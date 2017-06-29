@@ -7,7 +7,7 @@
 
 .custCard img {
 	height:60px;
-	max-width:100%;
+  max-width:auto;
 	margin:0 auto;
 }
 .custCard {
@@ -21,7 +21,6 @@
 	padding:0;
 	display:table;
 	margin:0 auto;
-	
 }
 
 .custCard ul.anim {
@@ -31,8 +30,8 @@
 .custCard li {
 	display:table-cell;
 	text-align:center;
-	padding:20px 0;
-	min-width:320px;
+	padding:20px 30px;
+	/*min-width:320px;*/
 }
 
 @media (max-width:960px) {

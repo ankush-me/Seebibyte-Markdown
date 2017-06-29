@@ -10,26 +10,23 @@ function custCard(el) {
 	this.cw = 0;
 	// console.log(this.cw);
 	// console.log(this.liw);
-	
+
 }
 
 custCard.prototype.animator = function() {
 	var that = this;
 	//that.ul.classList.add("anim");
 	that.ul.style.transform = "translate3d(-"+this.cw+"px,0,0)";
-	
-	if(this.cw==this.liw) {
+  curr_width = this.ul.getElementsByTagName("li")[0].offsetWidth;
+	if(this.cw>=curr_width) {
 		this.cw = 0;
 		that.ul.classList.remove("anim");
 		that.ul.style.transform = "translate3d(0,0,0)";
 		that.ul.appendChild(that.ul.getElementsByTagName("li")[0]);
 	}
-	
-	this.cw = this.cw+2;
-		
-	
+	this.cw = this.cw+1;
 };
 
 var cc = new custCard(document.getElementsByClassName("custCard")[0]);
 
- setInterval(function(){cc.animator();},20);
+ setInterval(function(){cc.animator();},10);
