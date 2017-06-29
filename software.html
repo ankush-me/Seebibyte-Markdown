@@ -24,7 +24,7 @@
 
 <div class="content content-home" data-src="markdown/software.md" data-hasmd="1" >
 <section class="empower softwares js-software" >
-	<h4>Softwares</h4>
+	<h4>Software</h4>
 	<div class="stats markdowner" >
 	<!--
 	<ul>
@@ -53,25 +53,25 @@
 	<script src="scripts/democard.js" ></script>
 	<script src="scripts/aboutcard.js" ></script>
 	<script src="scripts/linkcard.js" ></script>
-	
+
 	<script>
 	function init() {
 	var lcel = document.getElementsByClassName("softwares")[0];
 	var lclis = lcel.getElementsByTagName("li");
 	for(var i=0;i<lclis.length;i++) {
 		var lcli = lclis[i];
-		
+
 		var src = lcli.getElementsByTagName("img")[0].getAttribute("src");
 		var txt = lcli.getElementsByTagName("p")[0].innerText;
 		var lnk = lcli.getElementsByTagName("a")[0].getAttribute("href");
-		
+
 		var lcdiv = document.createElement("div");
 		lcdiv.classList.add("linkCard");
 		lcdiv.setAttribute("data-img",src);
 		lcdiv.setAttribute("data-title",txt);
 		lcdiv.setAttribute("data-link",lnk);
 		lcli.innerHTML = " ";
-		
+
 	    lcli.appendChild(lcdiv);
 	}
 	initLinkCards();
