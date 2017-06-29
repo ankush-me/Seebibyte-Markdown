@@ -11,17 +11,14 @@ function custCard(el) {
 	console.log(this.cw);
 	console.log(this.liw);
 	console.log(this.ulw);
-	
 }
 
 custCard.prototype.animator = function() {
 	this.ul.style.transform = "translate3d(-"+this.cw+"px,0,0)";
 	this.cw = (this.cw+this.liw)%this.ulw;
-	
+  console.log(this.liw);
+  console.log(this.cw);
 };
-
-
-
 
 var cc = new custCard(document.getElementsByClassName("custCard")[0]);
 
