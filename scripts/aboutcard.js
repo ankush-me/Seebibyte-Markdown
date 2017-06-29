@@ -7,7 +7,7 @@ function aboutCard(el) {
   this.cimg;this.cname;this.cinfo;
   this.arr = [];
   this.cidx = 0;
-  this.len = 360;
+  this.len = 760;
   this.el.classList.add("animated");
   this.c4div;this.c6div;
 }
@@ -32,7 +32,7 @@ aboutCard.prototype.deskmode = function() {
 		this.el.appendChild(this.c4div);
 		this.el.appendChild(this.c6div);
 		this.cinfo.style.display = "block";
-		this.len = 750;
+		this.len = 3750;
 		this.showtext();
 		
 	};

@@ -445,7 +445,7 @@ header .icon-carat-down:hover {
     }
 }
 
-@media (max-width:1080px) {
+@media (max-width:2080px) {
     .nav-item {
         margin: 0 10px 0 0
     }

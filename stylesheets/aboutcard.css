@@ -62,12 +62,17 @@
 .aboutCard div[data-ac="3"] {
   padding: 18px;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 24px;
   min-height: 260px;
   text-align: justify;
   background-color:white;
 }
+
+.aboutCard div[data-ac="3"] p {
+	font-size: 14px;
+	line-height: 20px;
+	color:black;
+}
+ 
 .aboutCard div[data-ac="3"] span {
   color: #4d90fe;
   font-weight: 400;
