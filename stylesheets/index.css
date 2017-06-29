@@ -8,6 +8,10 @@ body {
 	box-sizing:border-box;
 }
 
+.content iframe  {
+	margin:0 auto;
+}
+
 .content .demo h2{
 	font-size:18px;
 }
