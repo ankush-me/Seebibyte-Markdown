@@ -890,8 +890,8 @@ header .icon-carat-down:hover {
 }
 
 .content-home .case-studies h5 {
-    width: 510px;
-    margin: 0 auto 56px
+    width: 680px;
+    margin: 0 auto 20px
 }
 
 .content-home .case-studies .tabs {
@@ -938,7 +938,7 @@ header .icon-carat-down:hover {
     line-height: 1.5;
     letter-spacing: .4px;
     text-align: center;
-    width: 745px;
+    width: 720px;
     margin: 0 auto
 }
 
@@ -1010,16 +1010,13 @@ header .icon-carat-down:hover {
 }
 
 .content-home .customers {
-    
-    padding: 80px 0 77px;
-
+    padding: 40px 0 40px;
 }
 
 .content-home .customers h4 {
     font-size: 26px;
     letter-spacing: .5px;
-    margin-bottom: 67px;
-	
+    margin-bottom: 20px;
 }
 
 .content-home .empower .stat-measurement,
@@ -1181,7 +1178,7 @@ header .icon-carat-down:hover {
         height: 150px
     }
     .content-home .case-studies {
-        padding: 100px 0 77px
+        padding: 100px 0 39px
     }
 
     .content-home .case-studies h5 {
@@ -1229,7 +1226,7 @@ header .icon-carat-down:hover {
         width: 100%
     }
     .content-home .customers {
-        padding: 40px 0 77px
+        padding: 40px 0 40px
     }
     .content-home .customers .customer-logos {
         width: 100%;

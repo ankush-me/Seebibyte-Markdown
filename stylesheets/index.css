@@ -13,7 +13,7 @@ body {
 }
 
 .content .demo h3{
-	font-size:28px;
+	font-size:22px;
 }
 
 .content .demo h1{
@@ -26,13 +26,13 @@ body {
 }
 
 .content .demo h3{
-	font-size:24px;
+	font-size:18px;
 }
 
 .content .demo h1{
 	font-size:48px;
-}	
-} 
+}
+}
 
 .logo {
 	height:48px;
@@ -63,8 +63,8 @@ body {
 }
 
 .case-studies-inner {
-	padding-top:60px;
-	padding-bottom:60px;
+	padding-top:40px;
+	padding-bottom:40px;
 	padding-left:14px;
 	padding-right:14px;
 }

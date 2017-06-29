@@ -31,8 +31,6 @@
 	min-width:320px;
 }
 
-
-
 @media (max-width:960px) {
 	.custCard {
 		width:320px;
@@ -41,5 +39,3 @@
 		width:100%;
 	}
 }
-
-
