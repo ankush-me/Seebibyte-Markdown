@@ -1,35 +1,79 @@
-.publicat {
+* {box-sizing:border-box;}
 
+.pubCard {
+	padding:20px;
+	user-select:none;
 	color:black;
-	padding:100px 20px;
+	background-color:white;
 	text-align:left;
-	max-width:960px;
-	margin:0 auto;
+	max-width:768px;
+	margin:50px auto;
+	font-weight:300;
+	border-radius:5px;
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-.publicat h1 {
-	font-size:28px;
-	font-weight:100;
-	text-align:left;
-	margin:0;
-	line-height:45px;
-	padding-top:60px;
+.pubCard div[data-index="1"] {
+	padding:8px;
+	text-align:center;
+	
+	border-radius:5px;
 }
 
+.pubCard div[data-index="1"] p {
+	font-size:24px;
+	line-height:48px;
+	
+}
 
+.pubCard div[data-index="3"]  {
+	text-align:right;
+	padding-right:10px;
+}
 
-.publicat h3 {
-	font-size:18px;
-	text-decoration:none;
+.pubCard div[data-index="3"] span {
+	text-transform:uppercase;
 	color:#0077FF;
-}
-
-.publicat h2 {
+	font-weight:500;
+	cursor:pointer;
 	font-size:18px;
-	font-weight:100;
-	text-transform:none;
-	text-align:left;
+	
+}
+
+.pubCard .abstract.hide {
+	display:none;
 }
 
 
 
+.pubCard .author {
+	color:#002147;
+	font-weight:400;
+}
+
+.pubCard .links {
+	padding:16px;
+}
+
+.pubCard .links a {
+	border: 2px solid #0077FF;
+	margin:8px;
+	padding:6px 16px;
+	border-radius:6px;
+	font-weight:400;
+	transition:all 300ms linear;
+	
+}
+
+.pubCard .links a:hover {
+	color:white;
+	background-color:#0077FF;
+}
+
+@media (max-width:768px) {
+	
+.pubCard .links a {
+	display:block;
+	text-align:center;
+}
+}
