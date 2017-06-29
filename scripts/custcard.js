@@ -24,9 +24,9 @@ custCard.prototype.animator = function() {
 		that.ul.style.transform = "translate3d(0,0,0)";
 		that.ul.appendChild(that.ul.getElementsByTagName("li")[0]);
 	}
-	this.cw = this.cw+2;
+	this.cw = this.cw+1;
 };
 
 var cc = new custCard(document.getElementsByClassName("custCard")[0]);
 
- setInterval(function(){cc.animator();},20);
+ setInterval(function(){cc.animator();},10);
