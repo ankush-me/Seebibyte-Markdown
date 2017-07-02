@@ -47,10 +47,11 @@
 }
 
 .newspage  iframe{
-	
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 	position:absolute !important;
-	top:0;
-	right:0;
+	top:124px;
+	right:10px;
+	border-radius:20px;
 }
 
 .real-content {
@@ -73,6 +74,61 @@
 	font-weight:300;
 	border-radius:5px;
 	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.newsCard .title {
+	font-size:26px;
+	margin:0;
+	line-height:48px;
+	text-align:center;
+	
+}
+
+.newsCard img {
+	max-width:768px;
+	height:auto;
+}
+
+.newsCard p {
+	text-align:center;
+}
+
+.newsCard .date {
+	font-weight:500;
+	color:#0077FF;
+	line-height:36px;
+	font-size:18px;
+	text-align:left;
+	padding-left:28px;
+}
+
+.newsCard div[data-index="2"]  {
+	text-align:right;
+	line-height:48px;
+}
+
+.newsCard div[data-index="2"] span {
+	text-transform:uppercase;
+	color:#0077FF;
+	font-weight:500;
+	cursor:pointer;
+	font-size:18px;
+	padding-right:24px;
+}
+
+.newsCard .hide {
+	display:none;
+}
+
+.newsCard .highlight {
+	font-size:18px;
+	color:rgb(48,48,48);
+	font-style:italic;
+	text-align:center;
+}
+
+.newsCard .long {
+	text-align:justify;
 }
 
 @media (max-width:768px) {
