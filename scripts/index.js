@@ -69,6 +69,7 @@ function loadContent() {
 	if(mdreq.readyState === 4 && mdreq.status == 200) {
 	mdsec.innerHTML = "";
 	var md = new Remarkable();
+	md.block.ruler.enable(['footnote','deflist']);
 	mdsec.innerHTML = md.render(mdreq.responseText);
 	init();
 	}

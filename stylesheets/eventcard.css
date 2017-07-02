@@ -1,0 +1,120 @@
+* {box-sizing:border-box;}
+
+.eventCard {
+	padding:20px;
+	user-select:none;
+	color:black;
+	background-color:white;
+	text-align:left;
+	max-width:960px;
+	margin:50px auto;
+	font-weight:300;
+	border-radius:5px;
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.eventCard p {
+	margin:0;
+}
+
+
+.eventCard div[data-index="1"] {
+	padding:8px;
+	text-align:center;
+	border-radius:5px;
+}
+
+.eventCard div[data-index="1"] p {
+	font-size:36px;
+	line-height:56px;
+	margin:0;
+}
+
+.eventCard .venue {
+	padding:12px;
+	max-width: 768px;
+    text-align: center;
+	margin:0 auto;
+	font-size:24px;
+	line-height:48px;
+}
+
+.eventCard .date {
+	font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    color: #07f;
+    font-weight: 500;
+}
+
+.eventCard div[data-index="3"]  {
+	text-align:right;
+	line-height:48px;
+}
+
+.eventCard div[data-index="3"] span {
+	text-transform:uppercase;
+	color:#0077FF;
+	font-weight:500;
+	cursor:pointer;
+	font-size:18px;
+	padding-right:12px;
+}
+
+.eventCard div[data-index="4"] > p {
+	font-size:18px;
+	max-width:768px;
+	margin:0 auto;
+	text-align:center;
+} 
+
+.eventCard div[data-index="4"] > dl {
+	font-size:16px;
+	max-width:768px;
+	margin:0 auto;
+	
+} 
+
+.eventCard div[data-index="4"]  dt {
+	font-weight:500;
+	color:#0077FF;
+	text-align:left;
+	padding-top:28px;
+}
+
+.eventCard div[data-index="4"]  dd {
+	font-weight:300;
+	margin:0;
+	text-align:left;
+}
+
+.eventCard .hide {
+	display:none;
+}
+
+.eventCard .links {
+	padding:16px;
+}
+
+.eventCard .links a {
+	border: 2px solid #0077FF;
+	margin:8px;
+	padding:6px 16px;
+	border-radius:6px;
+	font-weight:400;
+	transition:all 300ms linear;
+	
+}
+
+.eventCard .links a:hover {
+	color:white;
+	background-color:#0077FF;
+}
+
+@media (max-width:768px) {
+	
+.eventCard .links a {
+	display:block;
+	text-align:center;
+}
+}
