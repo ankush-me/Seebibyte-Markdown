@@ -81,8 +81,8 @@
 .newsCard img {
 	max-width:768px;
 	height:auto;
-	width:220px;
-	height:220px;
+	width:150px;
+	height:150px;
 	border-radius:5px;
 }
 
@@ -127,7 +127,8 @@
 	font-size:16px;
 	color:rgb(48,48,48);
 	font-style:italic;
-	text-align:center;
+	display:inline-block;
+	padding-left:20px;
 }
 
 .newsCard .long {
@@ -195,9 +196,9 @@
 		font-size:22px;
 	}
 	.newsCard .date {
-		text-align:center;
-		padding:0;
+		display:inline-block;
 		margin:0;
+		
 	}
 	.newsCard div[data-index="2"] {
 		position:relative;
