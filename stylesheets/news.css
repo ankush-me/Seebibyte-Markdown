@@ -98,13 +98,15 @@
 	color:#0077FF;
 	line-height:36px;
 	font-size:18px;
-	text-align:left;
+	text-align:center;
 	padding-left:28px;
 }
 
 .newsCard div[data-index="2"]  {
 	text-align:right;
 	line-height:48px;
+	display:table;
+	width:100%;
 }
 
 .newsCard div[data-index="2"] span {
@@ -114,6 +116,7 @@
 	cursor:pointer;
 	font-size:18px;
 	padding-right:24px;
+	display:table-cell;
 }
 
 .newsCard .hide {
@@ -159,7 +162,7 @@
 	
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	.newspage  iframe.twitter-timeline {
 	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 	position:absolute !important;
