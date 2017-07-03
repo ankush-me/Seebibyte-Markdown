@@ -87,8 +87,13 @@
 .newsCard img {
 	max-width:768px;
 	height:auto;
-	width:100%;
+	width:256px;
+	height:192px;
+	border-radius:5px;
 }
+
+
+
 
 .newsCard p {
 	text-align:center;
@@ -140,5 +145,34 @@
 	}
 	.real-content {
 		padding-right:20px;
+	}
+	
+	
+}
+
+@media (min-width:	960px) {
+	
+	.newsCard div[data-index="1"] {
+		display:table;
+	}
+	.newsCard .cover {
+		display:table-cell;
+	}
+	.newsCard .infodiv {
+		display:table-cell;
+		vertical-align:top;
+		padding-left:16px;
+	}
+	
+	.newsCard .title {
+		text-align:left;
+		margin:0;
+		font-weight:300;
+		font-size:24px;
+	}
+	.newsCard .date {
+		text-align:center;
+		padding:0;
+		margin:0;
 	}
 }
