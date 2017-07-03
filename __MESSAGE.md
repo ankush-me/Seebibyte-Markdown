@@ -8,9 +8,11 @@ I have some requests for you. Can you please write a proof of internship letter/
 	
 I don't know much about neural networks but still I feel that the researches of visual geometry group are quite amazing .Extracting information from multimedia objects is a cool idea.
 
-If anytime in future, you have an issue regarding website or you want to add/update a feature , please let me know and i will try to fix it as soon as possible. I look forward to working on more website projects relating to visual geometry group.
-
-Thanks for reading this !!
-	
 **Nishchay Garg**
+
+If anytime in future, you have an issue regarding website or you want to add/update a feature , please let us know and we will try to fix it as soon as possible. We look forward to working on more website projects relating to visual geometry group.
+
+**Nishchay Garg and Satyam Mittal**
+	
+
 	
