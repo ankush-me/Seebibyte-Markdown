@@ -18,9 +18,9 @@ eventCard.prototype.divify = function() {
 	this.title+'</p></div><div data-index="2" ><p class="venue" >'+
 	this.venue+'</p><p class="date" >'+
 	this.date+'</p><p class="links" >'+
-	this.links+'</p><div data-index="3" ><span data-act="1" >Agenda</span><span data-act="2" >Summary</span></div><div data-index="4" ><dl class="agenda hide" >'+
-	this.agenda+'</dl><p class="summary hide">'+
-	this.summary+'</p></div>';
+	this.links+'</p><div data-index="3" ><span data-act="1" >Agenda</span><span data-act="2" >Summary</span></div><div data-index="4" ><h3>Summary</h3><p class="summary">'+
+	this.summary+'</p>><h3>Agenda</h3><dl class="agenda" >'+
+	this.agenda+'</dl></div>';
 	var that = this;
 	this.el.onclick = function(e) {
 		if(e.target.getAttribute("data-act")=="1") {

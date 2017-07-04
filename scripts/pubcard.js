@@ -23,9 +23,5 @@ pubCard.prototype.divify = function() {
 pubCard.prototype.init = function() {
 	var that = this;
 	this.divify();
-	this.el.onclick = function(e) {
-		if(e.target.getAttribute("data-act")=="1") {
-		that.el.getElementsByClassName("abstract")[0].classList.toggle("hide");
-		}
-	};
+	
 };

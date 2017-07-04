@@ -54,19 +54,68 @@
 	<script>
 	function init()	{
 	var list = document.getElementsByClassName("publist")[0].getElementsByTagName("li");
-		
+	document.getElementsByClassName("publist")[0].classList.add("hide");
 	var jxpub = new jaxer("bibtex/vgg.bib",function(data) {
 	var bobj = doParse(data);
 	for(var i=0;i<list.length;i++) {
 	var key = list[i].getElementsByTagName("h1")[0].innerText;
 	var pc = new pubCard(list[i],bobj[key]);
-	console.log(bobj[key]);
 	pc.init();
 	}
+	showYears();
+	bindClick();
+	document.getElementsByClassName("publist")[0].classList.remove("hide");
 	});
 	jxpub.req();
-		
+	
+	function showYears() {
+	var minYear = 2015;
+	var maxYear = 2020;
+	var publist = document.getElementsByClassName("publist")[0];
+	var maindiv = document.createElement("div");
+	for(var i=maxYear;i>=minYear;i--) {
+	var div = document.createElement("div");
+	div.setAttribute("data-year",i);
+	var heading = document.createElement("h2");
+	heading.innerHTML = i;
+	div.appendChild(heading);
+	var ul = document.createElement("ul");
+	var list = document.getElementsByClassName("publist")[0].getElementsByTagName("li");
+	var len = list.length;
+	for(var j=0;j<list.length;j++) {
+	if(list[j].getElementsByClassName("year")[0] && parseInt(list[j].getElementsByClassName("year")[0].innerText)==i) {
+	ul.appendChild(list[j].cloneNode(true));
 	}
+	}
+	div.appendChild(ul);
+	maindiv.appendChild(div);
+	if(div.getElementsByTagName("li").length==0) {
+	div.style.display = "none";
+	}
+	}
+	publist.innerHTML = "";
+	publist.appendChild(maindiv);
+	
+	}
+	
+	function bindClick() {
+	var cards = document.getElementsByClassName("pubCard");
+	for(var i=0;i<cards.length;i++) { 
+	cards[i].onclick = function(e) {
+		if(e.target.getAttribute("data-act")=="1") {
+		this.getElementsByClassName("abstract")[0].classList.toggle("hide");
+		}
+	};
+	
+	}
+	
+	
+	}
+
+	
+	}
+	
+	
 	
 	</script>
 </body>

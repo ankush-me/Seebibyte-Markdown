@@ -365,7 +365,7 @@ header .icon-carat-down:hover {
     flex: 1 1 auto;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 550px
+    max-width: 768px
 }
 
 .nav-item {

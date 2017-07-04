@@ -50,6 +50,7 @@
 .eventCard div[data-index="3"]  {
 	text-align:right;
 	line-height:48px;
+	display:none;
 }
 
 .eventCard div[data-index="3"] span {
@@ -67,6 +68,12 @@
 	margin:0 auto;
 	text-align:center;
 } 
+
+.eventCard div[data-index="4"] > h3 {
+	font-size:24px;
+	line-height:48px;
+	font-weight:100;
+}
 
 .eventCard div[data-index="4"] > dl {
 	font-size:16px;
