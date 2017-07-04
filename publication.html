@@ -25,7 +25,7 @@
 <div class="content content-home dark-content" data-src="markdown/publication.md" data-hasmd="1" >
 	
 	<section class="publicat js-publication" >
-	<ul class="publist markdowner">
+	<ul class="publist markdowner hide">
 	
 	</ul>
 	</section>
@@ -54,7 +54,6 @@
 	<script>
 	function init()	{
 	var list = document.getElementsByClassName("publist")[0].getElementsByTagName("li");
-	document.getElementsByClassName("publist")[0].classList.add("hide");
 	var jxpub = new jaxer("bibtex/vgg.bib",function(data) {
 	var bobj = doParse(data);
 	for(var i=0;i<list.length;i++) {

@@ -377,7 +377,7 @@ header .icon-carat-down:hover {
 .nav-item a {
     font-weight: 400;
     color: rgba(72, 77, 81, .75);
-	padding-right:20px;
+	padding-right:10px;
 }
 
 .nav-item a:hover {
