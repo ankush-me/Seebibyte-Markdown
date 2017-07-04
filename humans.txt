@@ -1,16 +1,25 @@
-	Team
+	People who have contributed to building the website
+	
+	/* TEAM */
 	
 	Name:Nishchay Garg
 	Github:@nicechay
 
 	Name:Satyam Mittal
 	Github:@satyammittal
-
-
-	For editing,issues and reuse of modules 
-	linkCard,demoCard,custCard,aboutCard 
-    contact Github:@nicechay
 	
-	Thanks to
+
+	/* SITE */
+	
+	----For editing,issues and reuse of modules---- 
+	[linkCard,demoCard,custCard,aboutCard,eventCard,themeCard,custCard] 
+	contact Github:@nicechay
+	
+	
+	/* THANKS */
+	
 	https://daneden.github.io/animate.css/
 	https://github.com/jonschlinkert/remarkable
+	https://github.com/ankush-me
+	https://code.google.com/archive/p/bibtex-js/
+	

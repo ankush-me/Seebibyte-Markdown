@@ -8,6 +8,7 @@
 	[Visual Geometry Group](http://www.robots.ox.ac.uk/~vgg/)
 	[Department of Engineering Science](http://www.eng.ox.ac.uk/)
 	[Engineering and Physical Sciences Research Council](https://www.epsrc.ac.uk/)
+	[HumansTXT](/humans.txt)
 
 *	## Partners
 
