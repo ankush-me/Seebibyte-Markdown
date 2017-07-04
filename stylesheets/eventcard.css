@@ -99,6 +99,10 @@
 	display:none;
 }
 
+.eventCard.hide {
+	display:none;
+}
+
 .eventCard .links {
 	padding:16px;
 }

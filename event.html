@@ -42,8 +42,24 @@
 	for(var i=0;i<li.length;i++) {
 	var ec = new eventCard(li[i]);
 	ec.divify();
+	showHash();
+	}
+	
+	window.onhashchange = showHash;
+	
+	function showHash() {
+	var hash = window.location.hash.substr(1);
+	if(hash.length) {
+	for(var i=0;i<li.length;i++) {
+	li[i].classList.add("hide");
+	if(li[i].getAttribute("data-hash")==hash) {
+	li[i].classList.remove("hide");
+	}
+	}
+	}
 	
 	}
+	
 	
 	}
 	</script>

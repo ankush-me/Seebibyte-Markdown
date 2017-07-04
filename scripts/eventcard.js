@@ -10,16 +10,18 @@ function eventCard(el) {
 	this.agenda = this.el.getElementsByTagName("dl")[0].innerHTML;
 	this.links = this.el.getElementsByTagName("p")[0].innerHTML;
 	this.details;
+	this.evtid = this.el.getElementsByTagName("h5")[0].innerHTML;;
 }
 
 eventCard.prototype.divify = function() {
 	this.el.classList.add("eventCard");
+	this.el.setAttribute("data-hash",this.evtid);
 	this.el.innerHTML = '<div data-index="1" ><p class="title" >'+
 	this.title+'</p></div><div data-index="2" ><p class="venue" >'+
 	this.venue+'</p><p class="date" >'+
 	this.date+'</p><p class="links" >'+
 	this.links+'</p><div data-index="3" ><span data-act="1" >Agenda</span><span data-act="2" >Summary</span></div><div data-index="4" ><h3>Summary</h3><p class="summary">'+
-	this.summary+'</p>><h3>Agenda</h3><dl class="agenda" >'+
+	this.summary+'</p><h3>Agenda</h3><dl class="agenda" >'+
 	this.agenda+'</dl></div>';
 	var that = this;
 	this.el.onclick = function(e) {
