@@ -22,7 +22,7 @@
 .eventDeck div[data-index="2"] {
 	display:table-cell;
 	width:60%;
-	height:320px;
+	max-height:320px;
 	background-size:cover;
 }
 
@@ -172,6 +172,8 @@
 	}
 	
 	.eventDeck div[data-index="2"] {
-		height:220px;
+		max-width:320px;
+		height:180px;
+		margin:0 auto;
 	}
 }
