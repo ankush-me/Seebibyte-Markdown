@@ -17,6 +17,7 @@
 .eventDeck div[data-index="1"] {
 	display:table;
 	width:100%;
+	min-height:320px;
 }
 
 .eventDeck div[data-index="2"] {
@@ -169,6 +170,10 @@
 	.eventDeck div {
 		display:block !important;
 		width:100% !important;
+	}
+	
+	.eventDeck div[data-index="1"] {
+		min-height:auto !important;
 	}
 	
 	.eventDeck div[data-index="2"] {
