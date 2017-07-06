@@ -33,7 +33,7 @@
         <div class="tabs tablist">
 
         </div>
-        <div class="demodiv markdowner">
+        <div class="demodiv markdowner hide">
 
         </div>
     </div>
@@ -116,6 +116,7 @@ console.log(tl);
 tl.init();
 tl.showAll();
 tl.el.style.display = "none";
+document.getElementsByClassName("markdowner")[0].classList.remove("hide");
 }
 
 	</script>

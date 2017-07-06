@@ -8,6 +8,10 @@ body {
 	box-sizing:border-box;
 }
 
+.markdowner.hide {
+	display:none;
+}
+
 .content iframe  {
 	margin:0 auto;
 }
