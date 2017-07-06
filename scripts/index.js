@@ -1,3 +1,19 @@
+function loaderfn() {
+	var loader = document.createElement("div");
+	loader.classList.add("loadover");
+	loader.innerHTML = '<div class="loader" ></div>'
+	var mainload = loader.getElementsByClassName("loader")[0];
+	for(var i=0;i<5;i++) {
+		var indiv = document.createElement("div");
+		mainload.appendChild(indiv);
+		mainload = indiv;
+	}
+	document.body.appendChild(loader);
+	console.log("loaded");
+}
+loaderfn();
+
+
 function jaxer(file,cb) {
 	this.req;
 	this.file = file;
@@ -72,7 +88,6 @@ function loadContent() {
 	md.block.ruler.enable(['footnote','deflist']);
 	mdsec.innerHTML = md.render(mdreq.responseText);
     init();
-	
 	}
 }
 
@@ -95,7 +110,11 @@ function loadFooter() {
 	ftsec.innerHTML = "";
 	var md = new Remarkable();
 	ftsec.innerHTML = md.render(ftreq.responseText);
+	setTimeout(function() {document.getElementsByClassName("loadover")[0].classList.add("hide");},300);
+	
 	}
 }
 
 reqFooter();
+
+

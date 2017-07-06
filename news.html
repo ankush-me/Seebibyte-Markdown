@@ -41,23 +41,6 @@
 <footer>
 
 </footer>
-	<script>
-	function init() {
-	
-	var ul = document.querySelectorAll(".real-content ul")[0];
-	var li = ul.children;
-	for(var i=0;i<li.length;i++) {
-	var nc = new newsCard(li[i]);
-	nc.divify();
-	}
-	
-	
-	}
-	
-	</script>
-	<script src="scripts/remarkable.min.js"></script>
-	<script src="scripts/index.js" ></script>
-	<script src="scripts/newscard.js" ></script>
 	<script>window.twttr = (function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
@@ -75,6 +58,24 @@
 	return t;
 	}(document, "script", "twitter-wjs"));
 </script>
+	<script>
+	function init() {
+	
+	var ul = document.querySelectorAll(".real-content ul")[0];
+	var li = ul.children;
+	for(var i=0;i<li.length;i++) {
+	var nc = new newsCard(li[i]);
+	nc.divify();
+	}
+	
+	
+	}
+	
+	</script>
+	<script src="scripts/remarkable.min.js"></script>
+	<script src="scripts/index.js" ></script>
+	<script src="scripts/newscard.js" ></script>
+	
 	
 	
 </body>
