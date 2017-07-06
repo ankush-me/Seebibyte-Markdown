@@ -33,25 +33,7 @@
 <footer>
 
 </footer>
-	
-	<script src="scripts/remarkable.min.js"></script>
-	<script src="scripts/index.js" ></script>
-	<script src="scripts/democard.js" ></script>
-	<script src="scripts/aboutcard.js" ></script>
-	<script src="scripts/linkcard.js" ></script>
-	<script src="scripts/pubcard.js" ></script>
-	<script>
-	function BibtexParser(){this.pos=0,this.input="",this.entries={},this.strings={JAN:"January",FEB:"February",MAR:"March",APR:"April",MAY:"May",JUN:"June",JUL:"July",AUG:"August",SEP:"September",OCT:"October",NOV:"November",DEC:"December"},this.currentKey="",this.currentEntry="",this.setInput=function(t){this.input=t},this.getEntries=function(){return this.entries},this.isWhitespace=function(t){return" "==t||"\r"==t||"	"==t||"\n"==t},this.match=function(t){if(this.skipWhitespace(),this.input.substring(this.pos,this.pos+t.length)!=t)throw"Token mismatch, expected "+t+", found "+this.input.substring(this.pos);this.pos+=t.length,this.skipWhitespace()},this.tryMatch=function(t){return this.skipWhitespace(),this.input.substring(this.pos,this.pos+t.length)==t?!0:!1},this.skipWhitespace=function(){for(;this.isWhitespace(this.input[this.pos]);)this.pos++;if("%"==this.input[this.pos]){for(;"\n"!=this.input[this.pos];)this.pos++;this.skipWhitespace()}},this.value_braces=function(){var t=0;this.match("{");for(var i=this.pos;;){if("}"==this.input[this.pos]&&"\\"!=this.input[this.pos-1]){if(!(t>0)){var s=this.pos;return this.match("}"),this.input.substring(i,s)}t--}else if("{"==this.input[this.pos])t++;else if(this.pos==this.input.length-1)throw"Unterminated value";this.pos++}},this.value_quotes=function(){this.match('"');for(var t=this.pos;;){if('"'==this.input[this.pos]&&"\\"!=this.input[this.pos-1]){var i=this.pos;return this.match('"'),this.input.substring(t,i)}if(this.pos==this.input.length-1)throw"Unterminated value:"+this.input.substring(t);this.pos++}},this.single_value=function(){var t=this.pos;if(this.tryMatch("{"))return this.value_braces();if(this.tryMatch('"'))return this.value_quotes();var i=this.key();if(this.strings[i.toUpperCase()])return this.strings[i];if(i.match("^[0-9]+$"))return i;throw"Value expected:"+this.input.substring(t)},this.value=function(){var t=[];for(t.push(this.single_value());this.tryMatch("#");)this.match("#"),t.push(this.single_value());return t.join("")},this.key=function(){for(var t=this.pos;;){if(this.pos==this.input.length)throw"Runaway key";if(!this.input[this.pos].match("[a-zA-Z0-9_:\\./-]"))return this.input.substring(t,this.pos).toUpperCase();this.pos++}},this.key_equals_value=function(){var t=this.key();if(this.tryMatch("=")){this.match("=");var i=this.value();return[t,i]}throw"... = value expected, equals sign missing:"+this.input.substring(this.pos)},this.key_value_list=function(){var t=this.key_equals_value();for(this.entries[this.currentEntry][t[0]]=t[1];this.tryMatch(",")&&(this.match(","),!this.tryMatch("}"));)t=this.key_equals_value(),this.entries[this.currentEntry][t[0]]=t[1]},this.entry_body=function(t){this.currentEntry=this.key(),this.entries[this.currentEntry]={entryType:t.substring(1)},this.match(","),this.key_value_list()},this.directive=function(){return this.match("@"),"@"+this.key()},this.string=function(){var t=this.key_equals_value();this.strings[t[0].toUpperCase()]=t[1]},this.preamble=function(){this.value()},this.comment=function(){this.value()},this.entry=function(t){this.entry_body(t)},this.bibtex=function(){for(;this.tryMatch("@");){var t=this.directive().toUpperCase();this.match("{"),"@STRING"==t?this.string():"@PREAMBLE"==t?this.preamble():"@COMMENT"==t?this.comment():this.entry(t),this.match("}")}}}
-	// Original work by Henrik Muehe (c) 2010
-	function doParse(input) {
-	var b = new BibtexParser()
-	b.setInput(input)
-	b.bibtex()
-	return b.entries
-	}
-	</script>
-
-	<script>
+		<script>
 	function init()	{
 	var list = document.getElementsByClassName("publist")[0].getElementsByTagName("li");
 	var jxpub = new jaxer("bibtex/vgg.bib",function(data) {
@@ -117,5 +99,23 @@
 	
 	
 	</script>
+	<script src="scripts/remarkable.min.js"></script>
+	<script src="scripts/index.js" ></script>
+	<script src="scripts/democard.js" ></script>
+	<script src="scripts/aboutcard.js" ></script>
+	<script src="scripts/linkcard.js" ></script>
+	<script src="scripts/pubcard.js" ></script>
+	<script>
+	function BibtexParser(){this.pos=0,this.input="",this.entries={},this.strings={JAN:"January",FEB:"February",MAR:"March",APR:"April",MAY:"May",JUN:"June",JUL:"July",AUG:"August",SEP:"September",OCT:"October",NOV:"November",DEC:"December"},this.currentKey="",this.currentEntry="",this.setInput=function(t){this.input=t},this.getEntries=function(){return this.entries},this.isWhitespace=function(t){return" "==t||"\r"==t||"	"==t||"\n"==t},this.match=function(t){if(this.skipWhitespace(),this.input.substring(this.pos,this.pos+t.length)!=t)throw"Token mismatch, expected "+t+", found "+this.input.substring(this.pos);this.pos+=t.length,this.skipWhitespace()},this.tryMatch=function(t){return this.skipWhitespace(),this.input.substring(this.pos,this.pos+t.length)==t?!0:!1},this.skipWhitespace=function(){for(;this.isWhitespace(this.input[this.pos]);)this.pos++;if("%"==this.input[this.pos]){for(;"\n"!=this.input[this.pos];)this.pos++;this.skipWhitespace()}},this.value_braces=function(){var t=0;this.match("{");for(var i=this.pos;;){if("}"==this.input[this.pos]&&"\\"!=this.input[this.pos-1]){if(!(t>0)){var s=this.pos;return this.match("}"),this.input.substring(i,s)}t--}else if("{"==this.input[this.pos])t++;else if(this.pos==this.input.length-1)throw"Unterminated value";this.pos++}},this.value_quotes=function(){this.match('"');for(var t=this.pos;;){if('"'==this.input[this.pos]&&"\\"!=this.input[this.pos-1]){var i=this.pos;return this.match('"'),this.input.substring(t,i)}if(this.pos==this.input.length-1)throw"Unterminated value:"+this.input.substring(t);this.pos++}},this.single_value=function(){var t=this.pos;if(this.tryMatch("{"))return this.value_braces();if(this.tryMatch('"'))return this.value_quotes();var i=this.key();if(this.strings[i.toUpperCase()])return this.strings[i];if(i.match("^[0-9]+$"))return i;throw"Value expected:"+this.input.substring(t)},this.value=function(){var t=[];for(t.push(this.single_value());this.tryMatch("#");)this.match("#"),t.push(this.single_value());return t.join("")},this.key=function(){for(var t=this.pos;;){if(this.pos==this.input.length)throw"Runaway key";if(!this.input[this.pos].match("[a-zA-Z0-9_:\\./-]"))return this.input.substring(t,this.pos).toUpperCase();this.pos++}},this.key_equals_value=function(){var t=this.key();if(this.tryMatch("=")){this.match("=");var i=this.value();return[t,i]}throw"... = value expected, equals sign missing:"+this.input.substring(this.pos)},this.key_value_list=function(){var t=this.key_equals_value();for(this.entries[this.currentEntry][t[0]]=t[1];this.tryMatch(",")&&(this.match(","),!this.tryMatch("}"));)t=this.key_equals_value(),this.entries[this.currentEntry][t[0]]=t[1]},this.entry_body=function(t){this.currentEntry=this.key(),this.entries[this.currentEntry]={entryType:t.substring(1)},this.match(","),this.key_value_list()},this.directive=function(){return this.match("@"),"@"+this.key()},this.string=function(){var t=this.key_equals_value();this.strings[t[0].toUpperCase()]=t[1]},this.preamble=function(){this.value()},this.comment=function(){this.value()},this.entry=function(t){this.entry_body(t)},this.bibtex=function(){for(;this.tryMatch("@");){var t=this.directive().toUpperCase();this.match("{"),"@STRING"==t?this.string():"@PREAMBLE"==t?this.preamble():"@COMMENT"==t?this.comment():this.entry(t),this.match("}")}}}
+	// Original work by Henrik Muehe (c) 2010
+	function doParse(input) {
+	var b = new BibtexParser()
+	b.setInput(input)
+	b.bibtex()
+	return b.entries
+	}
+	</script>
+
+
 </body>
 </html>

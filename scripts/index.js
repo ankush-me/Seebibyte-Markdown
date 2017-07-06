@@ -71,7 +71,8 @@ function loadContent() {
 	var md = new Remarkable();
 	md.block.ruler.enable(['footnote','deflist']);
 	mdsec.innerHTML = md.render(mdreq.responseText);
-	init();
+    init();
+	
 	}
 }
 
