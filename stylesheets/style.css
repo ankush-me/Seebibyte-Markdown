@@ -328,6 +328,7 @@ header .icon-carat-down:hover {
     box-sizing: border-box;
     margin: 0 auto;
     display: -ms-flexbox;
+	display: -webkit-flex;
     display: flex
 }
 
@@ -349,6 +350,7 @@ header .icon-carat-down:hover {
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     display: -ms-flexbox;
+	display: -webkit-flex;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between
@@ -362,6 +364,7 @@ header .icon-carat-down:hover {
 
 .nav-list.nav-left {
     -ms-flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
     flex: 1 1 auto;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -490,6 +493,7 @@ header .icon-carat-down:hover {
         padding: 0 10px 10px;
         background: #fff;
         -ms-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-pack: end;
         justify-content: flex-end;

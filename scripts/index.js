@@ -1,3 +1,5 @@
+
+
 function loaderfn() {
 	var loader = document.createElement("div");
 	loader.classList.add("loadover");
@@ -35,6 +37,8 @@ jaxer.prototype.load = function() {
 		that.cb(that.req.responseText);
 	}
 };
+
+function index() {
 
 function initHeader() {
 document.getElementById("hamburger").onclick = function() {
@@ -117,4 +121,13 @@ function loadFooter() {
 
 reqFooter();
 
+}
 
+if (
+    document.readyState === "complete" ||
+    (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  index();
+} else {
+  document.addEventListener("DOMContentLoaded", index);
+}
