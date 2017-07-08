@@ -56,6 +56,8 @@
 	showYears();
 	bindClick();
 	document.getElementsByClassName("publist")[0].classList.remove("hide");
+	window.onhashchange = hashPub;
+	hashPub();
 	});
 	jxpub.req();
 	
@@ -102,7 +104,27 @@
 	
 	
 	}
+	
+	function hashPub() {
+	var hash = window.location.hash.substr(1);
+	if(hash.length) {
+	var div = document.querySelectorAll("[data-year]");
+	for(var h=0;h<div.length;h++) {
+	if(div[h].getAttribute("data-year")==hash) {
+	div[h].style.display="block";
+	}
+	else {
+	div[h].style.display="none";
+	}
+	}
+	
+	
+	}
+	
+	}
 
+	
+	
 	
 	}
 	
