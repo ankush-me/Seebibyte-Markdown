@@ -2,24 +2,32 @@
 	
 	/* TEAM */
 	
-	Name:Nishchay Garg
+	Nishchay Garg
+	Role: Web design components
 	Github:@nicechay
 
-	Name:Satyam Mittal
+	Satyam Mittal
+	Role: Testing on various platforms
 	Github:@satyammittal
+	
+	Seebibyte Project
+	Role: Content and copyrights
+	url : http://www.robots.ox.ac.uk/~vgg/projects/seebibyte/
 	
 
 	/* SITE */
 	
 	----For editing,issues and reuse of modules---- 
-	[linkCard,demoCard,custCard,aboutCard,eventCard,themeCard,custCard] 
+	[linkCard,demoCard,custCard,aboutCard,eventDeck,themeCard,custCard] 
 	contact Github:@nicechay
 	
 	
 	/* THANKS */
 	
-	https://daneden.github.io/animate.css/
-	https://github.com/jonschlinkert/remarkable
+	https://github.com/jonschlinkert/remarkable 
 	https://github.com/ankush-me
 	https://code.google.com/archive/p/bibtex-js/
+	https://codepen.io/Siddharth11/
+	https://daneden.github.io/animate.css/
+	
 	
