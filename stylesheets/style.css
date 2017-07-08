@@ -102,21 +102,7 @@ ul {
     content: "\EA09"
 }
 
-@font-face {
-    font-family: et-line;
-    src: url(/static/fonts/et-line.eot);
-    src: url(/static/fonts/et-line.eot?#iefix) format('embedded-opentype'), url(/static/fonts/et-line.woff) format('woff'), url(/static/fonts/et-line.ttf) format('truetype'), url(/static/fonts/et-line.svg#et-line) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
 
-[data-icon]:before {
-    font-family: et-line;
-    content: attr(data-icon);
-    speak: none;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block
-}
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -989,9 +975,6 @@ header .icon-carat-down:hover {
     box-shadow: 0 4px 8px 0 rgba(31, 42, 51, .08)
 }
 
-.content-home .case-study .image-digital-asset-management {
-    background-image: url(/static/images/case-study-healthcare.jpg)
-}
 
 .content-home .case-study .title {
     font-size: 26px;
